@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "ti vi 3",
+                "start": 24,
+                "end": 31
+            },
+            {
+                "name": "syspercentage",
+                "value": "77 phần trăm",
+                "start": 36,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "Giúp mình tăng âm lượng ti vi 3 lên 77 phần trăm , mình thấy hơi nhỏ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "in which room sir"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 7,
+                "end": 14
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 17,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "mình ở phòng 9 , tầng 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

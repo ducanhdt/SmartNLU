@@ -1,0 +1,62 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn làm việc 1",
+                "start": 4,
+                "end": 18
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh lá",
+                "start": 24,
+                "end": 35
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 38,
+                "end": 45
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 46,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "đổi đèn làm việc 1 sang màu xanh lá ở phòng 4 tầng 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

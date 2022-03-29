@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "xin chào, mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn bàn 1",
+                "start": 18,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ con 9",
+                "start": 30,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Bạn cho mình biết đèn bàn 1 ở phòng ngủ con 9 đang bật hay tắt được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

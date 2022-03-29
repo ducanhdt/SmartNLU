@@ -1,0 +1,106 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, mình có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn vườn 2",
+                "start": 19,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "phòng thu 2",
+                "start": 32,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "Mình muốn kiểm tra đèn vườn 2 ở phòng thu 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn thực hiện mệnh lệnh gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình nên kiểm tra hay tắt/ bật đèn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn vườn 1",
+                "start": 14,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Tắt giúp mình đèn vườn 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào ạ, mình chưa xử lý kịp"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng thu 1",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Phòng thu 1 ở tầng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lí ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chào chủ nhân!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hy vọng bạn đã có một ngày tốt lành "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn yêu cầu tôi việc gì nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn tròn 1",
+                "start": 23,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "làm ơn kiểm tra hộ tôi đèn tròn 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi sẽ làm luôn đây!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhưng mà có nhiều phòng có đèn tròn lắm!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tôi tắt ở đâu nhỉ!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "cổng 8",
+                "start": 2,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "ở cổng 8 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

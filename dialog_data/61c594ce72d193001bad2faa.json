@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " quạt 1",
+                "start": 36,
+                "end": 43
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 48,
+                "end": 57
+            },
+            {
+                "name": "syspercentage",
+                "value": " 83 phần trăm ",
+                "start": 61,
+                "end": 75
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể giúp mình tăng mức độ của quạt 1 bên phòng ngủ lên 83 phần trăm được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 28,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "Phòng ngủ của con mình trên tầng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

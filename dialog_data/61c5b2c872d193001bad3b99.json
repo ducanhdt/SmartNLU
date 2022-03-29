@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt 1",
+                "start": 16,
+                "end": 25
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 32,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "giảm hộ tôi cái đèn hắt 1 xuống 4 cái bạn ơi, chói mắt quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "có nhiều đèn hắt lắm bạn muốn giảm cái đèn hắt ở phòng nào vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng vệ sinh",
+                "start": 6,
+                "end": 19
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 20,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "cái ở phòng vệ sinh tầng 2 ấy bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

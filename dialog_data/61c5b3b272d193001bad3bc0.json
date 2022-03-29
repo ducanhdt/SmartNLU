@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, rất hân hạnh được phục vụ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng để bàn 3",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng gia đình 9",
+                "start": 16,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "bóng để bàn 3 ở phòng gia đình 9 bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Dạ vâng ạ, bạn muốn mình làm gì với nó ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 26,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Ơn giời, đúng rồi bạn ak, tắt nó đi nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

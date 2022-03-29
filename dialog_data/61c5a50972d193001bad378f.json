@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút nhấn 1",
+                "start": 35,
+                "end": 45
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 52,
+                "end": 63
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 21,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn có thể bật giúp mình nút nhấn 1 trong phòng khách được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật mức bao nhiêu phần trăm nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "62 %",
+                "start": 24,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình ở mức 62 % nhé, mình cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

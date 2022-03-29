@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, tôi giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " hắt trần 2",
+                "start": 13,
+                "end": 24
+            },
+            {
+                "name": "room",
+                "value": " mặt tiền 1",
+                "start": 26,
+                "end": 37
+            },
+            {
+                "name": "syspercentage",
+                "value": "66 %",
+                "start": 44,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "giảm cho mình hắt trần 2 ở mặt tiền 1 xuống 66 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

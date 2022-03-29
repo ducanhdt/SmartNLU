@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp đỡ gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 2",
+                "start": 27,
+                "end": 43
+            },
+            {
+                "name": "room",
+                "value": "phòng thay đồ 2",
+                "start": 67,
+                "end": 82
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 23,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "nay trời lạnh quá, bạn bật bình nóng lạnh 2 giúp mình, mình đang ở phòng thay đồ 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bật bao nhiêu độ thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 12,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "bật lên mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

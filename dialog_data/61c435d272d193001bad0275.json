@@ -1,0 +1,142 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt trần 3",
+                "start": 13,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "tôi muốn tắt quạt trần 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần cho tôi biết quạt trần ở phòng nào đã"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 3",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật quạt ở mức mấy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt trần 1",
+                "start": 18,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "tôi muốn tăng mức quạt trần 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Trước khi tăng, tôi cần biết phòng bạn muốn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 2,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "ở phòng 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Vâng, cho hỏi bạn muốn tăng lên mức nào ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

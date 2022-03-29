@@ -1,0 +1,46 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi màu sắc",
+                "start": 12,
+                "end": 28
+            },
+            {
+                "name": "device",
+                "value": "tvs 2",
+                "start": 33,
+                "end": 38
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 65,
+                "end": 71
+            },
+            {
+                "name": "room",
+                "value": "phòng 8",
+                "start": 72,
+                "end": 79
+            },
+            {
+                "name": "syscolor",
+                "value": "xanh nước biển",
+                "start": 48,
+                "end": 62
+            }
+        ],
+        "content": {
+            "text": "trợ lý béo, thay đổi màu sắc của tvs 2 sang màu xanh nước biển ở tầng 4 phòng 8 giúp anh"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

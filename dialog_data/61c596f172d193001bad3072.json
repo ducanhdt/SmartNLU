@@ -1,0 +1,119 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nói đi đừng ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hãy yêu cầu tôi đi nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Ok đợi tôi tí ngồi nghỉ cái đã"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "Bật giúp tôi nào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn vui lòng cho biết tê thiết bị và vị trí của nó ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tivi 2",
+                "start": 13,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "phòng cuối 4",
+                "start": 28,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Bật thiết bị tivi 2 ở phòng phòng cuối 4 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "bật ở mức độ 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

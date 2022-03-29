@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp bạn làm gì nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 1",
+                "start": 15,
+                "end": 20
+            },
+            {
+                "name": "syspercentage",
+                "value": "91 phần trăm",
+                "start": 25,
+                "end": 37
+            },
+            {
+                "name": "room",
+                "value": "phòng thiền",
+                "start": 40,
+                "end": 51
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 53,
+                "end": 59
+            }
+        ],
+        "content": {
+            "text": "Giúp mình tăng rgb 1 lên 91 phần trăm ở phòng thiền, tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

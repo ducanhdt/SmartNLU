@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần mình trợ giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm cửa đôi 3",
+                "start": 18,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "phòng 3 ",
+                "start": 34,
+                "end": 42
+            },
+            {
+                "name": "syspercentage",
+                "value": " 81 %",
+                "start": 49,
+                "end": 54
+            },
+            {
+                "name": "command",
+                "value": "bật ",
+                "start": 4,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình rèm cửa đôi 3 ở phòng 3 lên mức 81 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

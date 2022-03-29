@@ -1,0 +1,98 @@
+[
+    {
+        "content": {
+            "text": "Chủ nhân cần em hỗ trợ gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "điện 2",
+                "start": 29,
+                "end": 35
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh da trời",
+                "start": 42,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp tôi chuyển màu bóng điện 2 thành màu xanh da trời nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": " tầng 9 ",
+                "start": 14,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "Ở phòng 4 trên tầng 9 ấy em."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Còn yêu cầu gì khác không ạ? "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 21,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Không cần đâu, em cứ đổi màu cho anh thôi là được."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

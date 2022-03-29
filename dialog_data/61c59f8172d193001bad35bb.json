@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "hếlo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "how can i help u "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "vô tuyến 2",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "phòng chánh 8",
+                "start": 20,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "kiểm tra vô tuyến 2 phòng chánh 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

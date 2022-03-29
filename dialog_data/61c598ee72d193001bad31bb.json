@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "hello "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn tròn 3",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "cổng 7",
+                "start": 15,
+                "end": 21
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "bật đèn tròn 3 cổng 7 cấp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

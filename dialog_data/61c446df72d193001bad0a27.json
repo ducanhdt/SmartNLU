@@ -1,0 +1,80 @@
+[
+    {
+        "content": {
+            "text": "mình là trợ lý đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "downlight 3",
+                "start": 24,
+                "end": 35
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 47,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "Giúp mình tăng thiết bị downlight 3 lên cấp độ 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đã hiểu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn điều chỉnh đèn ở phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "8",
+                "start": 12,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Đèn ở phòng 8 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

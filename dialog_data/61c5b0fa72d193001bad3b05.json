@@ -1,0 +1,65 @@
+[
+    {
+        "content": {
+            "text": "Hello bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình đây bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đừng ngần ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn nhiều màu 1",
+                "start": 16,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "gara 6",
+                "start": 34,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "kiểm tra hộ cái đèn nhiều màu 1 ở gara 6 giúp với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

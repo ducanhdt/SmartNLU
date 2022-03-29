@@ -1,0 +1,107 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi, hỗ trợ mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình dây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm cửa 3",
+                "start": 25,
+                "end": 34
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 42,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "mình muốn giảm độ mở của rèm cửa 3 về mức 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm ở phòng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 27,
+                "end": 34
+            },
+            {
+                "name": "floorNumber",
+                "value": "8",
+                "start": 40,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "mình muốn điều chỉnh rèm ở phòng 6 tầng 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

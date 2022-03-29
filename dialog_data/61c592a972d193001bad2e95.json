@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì được cho bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn lồng 2",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "syscolor",
+                "value": "màu đỏ",
+                "start": 25,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "thay đổi đèn lồng 2 sang màu đỏ nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn thay đổi màu sắc đèn lồng ở phòng nào vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 11,
+                "end": 20
+            },
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "ơi bạn ơi, phòng ngủ tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

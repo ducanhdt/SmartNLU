@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, bạn cần mình giúp gì không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 3",
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "màn cuốn 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin lỗi nãy mình không nghe rõ bạn muốn làm gì với màn cuốn này ạ? và màn cuốn phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ông chủ 6",
+                "start": 0,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "phòng ông chủ 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn làm gì với nó ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "Tắt"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

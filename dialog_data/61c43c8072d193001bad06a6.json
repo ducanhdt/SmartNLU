@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 19,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Tăng sysnumber lên 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tăng ở phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": " phòng ngủ",
+                "start": 6,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Tăng ở phòng ngủ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Thiết bị nào thế bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trần 3",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "bóng trần 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

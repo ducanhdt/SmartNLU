@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi có thể giúp gì bạn ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "5",
+                "start": 13,
+                "end": 14
+            },
+            {
+                "name": "device",
+                "value": "quạt treo tường 1",
+                "start": 49,
+                "end": 66
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 74,
+                "end": 75
+            }
+        ],
+        "content": {
+            "text": "Mình ở phòng 5 đang hơi lạnh, bạn giúp mình giảm quạt treo tường 1 về mức 3 nhé 😁😁"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình hiểu rồi bạn nhé, phòng 3 ở tầng nào bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "5",
+                "start": 17,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Mình đang ở tầng 5 nhé, xin cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "Xin chào Bro"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bro cần gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm 2",
+                "start": 18,
+                "end": 23
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "syspercentage",
+                "value": "86 phần trăm",
+                "start": 30,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình rèm 2 ở mức 86 phần trăm được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Okee r bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình cần biết nó ở đâu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 20,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Bật giúp mình cái ở phòng khách nhé, ngoài trời nắng chói quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

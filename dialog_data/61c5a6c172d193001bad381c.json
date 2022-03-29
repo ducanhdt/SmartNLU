@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cần gì vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng trang trí 2",
+                "start": 17,
+                "end": 33
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 40,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Bật giúp anh cái bóng trang trí 2 ở mức 4 với !"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh phòng nào vậy nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng em bé 4",
+                "start": 11,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "anh đang ở phòng em bé 4 nha em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

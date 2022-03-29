@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "bạn cần giúp chi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "máy lạnh 1",
+                "start": 37,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Bạn làm ơn giúp mình tăng mức độ của máy lạnh 1 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng lên mức nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 23,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "mình muốn tăng lên mức 3, bạn giúp mình được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình đã nhận được yêu cầu, bạn ở phòng bao nhiêu nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 35,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "bạn thay đổi giúp mình máy ở trong phòng khách nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn rọi 1",
+                "start": 38,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể giúp mình giảm độ sáng của đèn rọi 1 xuống được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok bạn muốn giảm độ sáng xuống mức bao nhiêu nhỉ? Và cho mình thêm thông tin về vị trí của đèn này với?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 45,
+                "end": 46
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 49,
+                "end": 60
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 66,
+                "end": 72
+            }
+        ],
+        "content": {
+            "text": "Bạn giảm giúp mình độ sáng của đèn xuống mức 4 ở phòng khách dưới tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

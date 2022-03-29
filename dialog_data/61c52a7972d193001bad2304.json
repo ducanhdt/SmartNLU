@@ -1,0 +1,111 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "chào anh, anh cần gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn kiểng 3",
+                "start": 11,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn",
+                "start": 25,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Em đổi màu đèn kiểng 3 ở phòng ăn giúp anh với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh muốn làm gì thiết bị đó ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "syscolor",
+                "value": "màu tía",
+                "start": 16,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "đổi màu em nhé, màu tía"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok ạ, thiết bị ở tầng mấy anh nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 0,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "tầng 9 em nha, nhanh giùm a"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

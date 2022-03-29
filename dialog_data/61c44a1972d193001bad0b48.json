@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "hello, can i help you?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 1",
+                "start": 19,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": "sân 7",
+                "start": 31,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Giúp mình kiểm tra cột đèn 1 ở sân 7 xem nó như thế nào nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

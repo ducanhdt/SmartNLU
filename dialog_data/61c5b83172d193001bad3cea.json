@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trần 2",
+                "start": 9,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Giảm mức bóng trần 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm xuống mức nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Bạn giảm giúp mình về mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "rồi giờ thì bạn muồn mình giảm bóng ở đâu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 15,
+                "end": 24
+            },
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 30,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Bóng đèn trong phòng ngủ tầng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

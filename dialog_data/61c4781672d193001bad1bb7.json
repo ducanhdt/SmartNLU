@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "trợ lý ảo đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng led 1",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "kiểm tra cho mình bóng led 1 nhé, chắc bị trục trặc gì rồi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bóng led 49 ở phòng nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "ban công 9",
+                "start": 19,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "xem cho mình ngoài ban công 9 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

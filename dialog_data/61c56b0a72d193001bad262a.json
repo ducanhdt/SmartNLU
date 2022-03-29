@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Anh cần gì nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 42,
+                "end": 43
+            },
+            {
+                "name": "device",
+                "value": "rèm đơn 1",
+                "start": 55,
+                "end": 64
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 88,
+                "end": 89
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ tối tăm quá, em giảm giúp anh 2 mức độ của rèm đơn 1 nhé, à quên anh ở tầng 7 nhen"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

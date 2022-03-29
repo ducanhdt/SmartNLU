@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, mình có thể giúp bạn thực hiện công việc gì vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "kiểng 3",
+                "start": 39,
+                "end": 46
+            },
+            {
+                "name": "syscolor",
+                "value": "xám",
+                "start": 53,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi thay đổi màu sắc của thiết bị kiểng 3 thành xám nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn thay đổi màu sắc của kiểng ở vị trí nào vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 11,
+                "end": 22
+            },
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 34,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "thay đổi ở phòng khách và tầng là 2 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

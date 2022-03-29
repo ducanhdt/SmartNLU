@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "Xin chào mình có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trang trí 1",
+                "start": 13,
+                "end": 28
+            },
+            {
+                "name": "syscolor",
+                "value": "màu violet",
+                "start": 34,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "Thay đổi màu đèn trang trí 1 sang màu violet"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cho mình thêm thông tin về vị trí và hành động bạn muốn làm với"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "room",
+                "start": 0,
+                "end": 4
+            },
+            {
+                "name": "command",
+                "value": "command",
+                "start": 6,
+                "end": 13
+            },
+            {
+                "name": "floorNumber",
+                "value": "floorNumber",
+                "start": 15,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "room, command, floorNumber"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

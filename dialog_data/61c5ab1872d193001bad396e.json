@@ -1,0 +1,88 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, hân hạnh được phục vụ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể hỗ trợ gì được nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành cuốn 1",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Tăng mành cuốn 1 lên 1 bạn ơi, thấp quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Dạ vâng ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Trong nhà hiện tại có nhiều mành cuốn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cho mình biết cụ thể được không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 5",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Phòng 5 cạnh tôi này"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

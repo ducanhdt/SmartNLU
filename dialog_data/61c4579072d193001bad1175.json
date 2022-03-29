@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 13,
+                "end": 16
+            },
+            {
+                "name": "device",
+                "value": "van tưới 2",
+                "start": 26,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "sau vườn",
+                "start": 39,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Mình nhờ bạn bật thiết bị van tưới 2 ở sau vườn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật ở mức bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "86 %",
+                "start": 35,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "Quên mất, chỉnh giúp mình tăng lên 86 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

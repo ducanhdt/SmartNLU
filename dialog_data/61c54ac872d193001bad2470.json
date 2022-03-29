@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "Xin chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 1",
+                "start": 24,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng thu âm 7",
+                "start": 41,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "bạn chỉnh giúp kiểm tra đèn trụ cổng 1 ở phòng thu âm 7 xem bật không nhé?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

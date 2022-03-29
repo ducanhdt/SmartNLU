@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "hey hey"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "I can do everything"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng trang trí 3",
+                "start": 4,
+                "end": 20
+            },
+            {
+                "name": "room",
+                "value": "9",
+                "start": 27,
+                "end": 28
+            },
+            {
+                "name": "syspercentage",
+                "value": "71 phần trăm",
+                "start": 29,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "bật bóng trang trí 3 phòng 9 71 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

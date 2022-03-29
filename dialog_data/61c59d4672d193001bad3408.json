@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "say all what you want"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "i can do everything"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm trần 2",
+                "start": 5,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng hội nghị 9",
+                "start": 15,
+                "end": 31
+            },
+            {
+                "name": "syspercentage",
+                "value": "69 phần trăm",
+                "start": 32,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "giảm âm trần 2 phòng hội nghị 9 69 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

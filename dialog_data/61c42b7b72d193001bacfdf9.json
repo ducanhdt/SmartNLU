@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gì?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "van tưới 2",
+                "start": 15,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 28,
+                "end": 35
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 44,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Tăng giúp mình van tưới 2 ở phòng 4 lên mức 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

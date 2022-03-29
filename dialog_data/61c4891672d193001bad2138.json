@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "tôi là trợ lí ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "vô tuyến 3",
+                "start": 35,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "chòa bạn, tôi muốn tăng mức độ của vô tuyến 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "được bạn, ti vi ở phòng nào tầng mấy thế bạn yêu?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 27,
+                "end": 36
+            },
+            {
+                "name": "floorNumber",
+                "value": " tầng 2",
+                "start": 19,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "tăng giúp tôi cái ở tầng 2 phòng ngủ nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhưng mà bao nhiêu phần trăm bạn ei?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": " 89 %",
+                "start": 16,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "tăng cho tôi đến 89 % nhé bạn yêu"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

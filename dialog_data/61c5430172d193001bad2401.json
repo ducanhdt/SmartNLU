@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "chào anh trai, anh cần gì nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 3",
+                "start": 11,
+                "end": 21
+            },
+            {
+                "name": "syscolor",
+                "value": "màu hồng",
+                "start": 27,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "đổi hộ anh công tắc 3 sang màu hồng với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh, thế ở phòng nào anh nhở?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 19,
+                "end": 25
+            },
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "đổi phòng ngủ trên tầng 7 nha em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "hiii"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "kiểng 1",
+                "start": 22,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "phòng học 5",
+                "start": 32,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "tôi muốn xem thiết bị kiểng 1 ở phòng học 5"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

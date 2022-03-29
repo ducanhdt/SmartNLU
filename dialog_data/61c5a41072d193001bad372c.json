@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành 1",
+                "start": 41,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể giúp mình thay đổi mức độ của mành 1 được không, tăng nó lên một chút."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng mức bao nhiêu nhỉ, và thiết bị ở phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 30,
+                "end": 39
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 48,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng giúp mình mành trong phòng ngủ lên mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

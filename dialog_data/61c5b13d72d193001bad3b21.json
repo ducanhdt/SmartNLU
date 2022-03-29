@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "bạn cần giúp gì vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 21,
+                "end": 29
+            },
+            {
+                "name": "device",
+                "value": "chiết áp 3",
+                "start": 38,
+                "end": 48
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 55,
+                "end": 64
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể giúp mình thay đổi màu của chiết áp 3 trong phòng ngủ được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok luôn bạn ơi, sang màu gì bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "4",
+                "start": 49,
+                "end": 50
+            },
+            {
+                "name": "syscolor",
+                "value": "đỏ",
+                "start": 27,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "bạn thay cho mình sang màu đỏ nhé, thiết bị tầng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

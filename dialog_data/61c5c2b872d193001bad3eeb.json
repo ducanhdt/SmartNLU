@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần hỗ trợ gì vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": " bóng trần 2",
+                "start": 12,
+                "end": 24
+            },
+            {
+                "name": "room",
+                "value": "phong ngủ",
+                "start": 27,
+                "end": 36
+            },
+            {
+                "name": "syspercentage",
+                "value": "62 %",
+                "start": 48,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "bật cho mình bóng trần 2 ở phong ngủ với mức độ 62 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

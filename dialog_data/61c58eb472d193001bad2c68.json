@@ -1,0 +1,96 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi chiều"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì được bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa còi 1",
+                "start": 5,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Giảm loa còi 1 hộ với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Rất vui lòng!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm loa ở phòng nào nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Sự hài lòng của bạn là thành công của tôi!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Nhà vệ sinh 4",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "name": "syspercentage",
+                "value": "69 %",
+                "start": 25,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Nhà vệ sinh 4 nhé, giảm: 69 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

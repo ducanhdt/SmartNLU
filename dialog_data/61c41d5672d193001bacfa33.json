@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Chào anh, em có thể giúp gì cho anh ạ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh sắp có một chuyến đi chơi dã ngoại cùng gia đình."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh cần em bảo vệ thiết bị gì trong nhà không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Khi nhà anh đi chơi, em kiểm tra xem cửa có được khóa cẩn thận không nhá!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh còn yêu cầu gì khác không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Không, em kiểm tra cửa được khóa là được."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

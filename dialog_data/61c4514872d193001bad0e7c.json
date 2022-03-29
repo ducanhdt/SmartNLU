@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "mình giúp gì được cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "vô tuyến 1",
+                "start": 15,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "phòng chánh 9",
+                "start": 28,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Tắt hộ tôi cái vô tuyến 1 ở phòng chánh 9 với. Tôi lười quá nên không muốn đi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

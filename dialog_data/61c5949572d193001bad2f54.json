@@ -1,0 +1,109 @@
+[
+    {
+        "content": {
+            "text": "Rất vui lòng được đồng hành cùng bạn!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo đây!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn làm gì có thể yêu cầu tôi!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Ok chào trợ lý ảo"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin chào bạn! Không cần khách sáo đâu!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 9,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi tắt đi nào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tắt gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhà của bạn có rất nhiều thứ đó!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn tròn 2",
+                "start": 22,
+                "end": 32
+            },
+            {
+                "name": "room",
+                "value": "cổng 8",
+                "start": 47,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi bật thiết bị đèn tròn 2 , trong phòng cổng 8 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

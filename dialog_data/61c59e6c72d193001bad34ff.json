@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "hắt tường 3",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "room",
+                "value": "tiền sảnh 1",
+                "start": 17,
+                "end": 28
+            },
+            {
+                "name": "syspercentage",
+                "value": "51 phần trăm",
+                "start": 29,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "giảm hắt tường 3 tiền sảnh 1 51 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

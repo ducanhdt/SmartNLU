@@ -1,0 +1,69 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Chào idol"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật ",
+                "start": 8,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "đèn sợi đốt 3",
+                "start": 12,
+                "end": 25
+            },
+            {
+                "name": "sysnumber",
+                "value": "3 ",
+                "start": 24,
+                "end": 26
+            },
+            {
+                "name": "room",
+                "value": "cổng chính 8",
+                "start": 28,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Giúp em bật đèn sợi đốt 3 ở cổng chính 8 ở mức 3 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

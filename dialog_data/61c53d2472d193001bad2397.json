@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Dạ chào bạn, bạn có cần gì không ạ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt hút mùi 2",
+                "start": 17,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "em tăng giúp anh quạt hút mùi 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh ơi, lên bao nhiêu phần trăm hả anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "93 %",
+                "start": 4,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "lên 93 % em ơi."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tăng quạt ở đâu vậy anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ăn",
+                "start": 2,
+                "end": 10
+            },
+            {
+                "name": "floorNumber",
+                "value": "5",
+                "start": 17,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "ở phòng ăn, tầng 5 em ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

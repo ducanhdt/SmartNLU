@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "rèm cửa 1",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng tiếp đón 5",
+                "start": 14,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "tắt rèm cửa 1 phòng tiếp đón 5"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

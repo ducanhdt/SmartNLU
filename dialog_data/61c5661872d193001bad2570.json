@@ -1,0 +1,50 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nữ 3",
+                "start": 23,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra giúp anh đồ ở phòng nữ 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "thế anh muốn kiểm tra gì trong phòng ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trần 1 ",
+                "start": 33,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "làm ăn chán quá em, em check cái đèn trần 1 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Hi, trợ lí ảo xin nghe"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp đỡ gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hi, bạn có đó không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng vườn 3",
+                "start": 41,
+                "end": 52
+            },
+            {
+                "name": "syscolor",
+                "value": "màu đen",
+                "start": 58,
+                "end": 65
+            }
+        ],
+        "content": {
+            "text": "chào bạn, thay đổi giúp mình màu sắc của bóng vườn 3 sang màu đen với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 11,
+                "end": 20
+            },
+            {
+                "name": "floorNumber",
+                "value": "1",
+                "start": 26,
+                "end": 27
+            },
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 0,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "thay đổi ở phòng ngủ tầng 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

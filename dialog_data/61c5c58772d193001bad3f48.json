@@ -1,0 +1,91 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì cho bạn được nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có cần mình thực hiện công việc nào đó không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn học 1",
+                "start": 25,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng học",
+                "start": 37,
+                "end": 46
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 11,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể bật giúp mình đèn học 1 ở phòng học được không ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn đặt đèn ở mức bao nhiêu?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "70 phần trăm",
+                "start": 15,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Cho mình ở mức 70 phần trăm nhá. Cảm ơn nhiều ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

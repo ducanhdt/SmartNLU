@@ -1,0 +1,89 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý đâu rồi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn mình giúp gì nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt 1",
+                "start": 15,
+                "end": 25
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh lam",
+                "start": 31,
+                "end": 43
+            },
+            {
+                "name": "command",
+                "value": "chuyển",
+                "start": 4,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "bạn chuyển cái bóng hắt 1 sang màu xanh lam giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn chuyển màu đèn ở phòng nào thế ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 12,
+                "end": 21
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 22,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "mình đang ở phòng ngủ tầng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Chào anh/chị, em có thể giúp gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt hút mùi 3",
+                "start": 16,
+                "end": 30
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Bạn tắt hộ mình quạt hút mùi 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Quạt đó ở phòng nào vậy ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "công ty 6",
+                "start": 2,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Ở công ty 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

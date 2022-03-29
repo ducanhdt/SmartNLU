@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp được gì bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 3",
+                "start": 12,
+                "end": 22
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 29,
+                "end": 30
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật hộ mình công tắc 3 ở mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin hãy cho tôi biết phòng cần bật"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nam 2",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng nam 2 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

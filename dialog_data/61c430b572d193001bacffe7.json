@@ -1,0 +1,130 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn có thể đưa ra yêu cầu mà mình mong muốn để mình có thể giúp bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "ti vi 1",
+                "start": 13,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Tăng hộ mình ti vi 1 lên với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 4",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Phòng 4 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng thuộc tầng bao nhiêu vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 6 ",
+                "start": 13,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Phòng ở ngay tầng 6 bạn ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Vậy bạn muốn tăng nó lên bao nhiêu?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "86 phần trăm",
+                "start": 15,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Tăng giúp mình 86 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

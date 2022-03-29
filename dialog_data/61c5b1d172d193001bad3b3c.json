@@ -1,0 +1,97 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Help me!!!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn rọi 3",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng tôi",
+                "start": 16,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "Cái đèn rọi 3 ở phòng tôi nhìn chán lắm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "thế bạn có muốn đổi màu cho nó chất hơn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 11,
+                "end": 17
+            },
+            {
+                "name": "syscolor",
+                "value": "màu lam",
+                "start": 32,
+                "end": 39
+            },
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 23,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "phòng mình tầng 4 đấy, đổi sang màu lam đi, chắc đẹp phải biết"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

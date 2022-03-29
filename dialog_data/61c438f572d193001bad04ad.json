@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào, em có thể giúp gì cho sếp không ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn lồng 1",
+                "start": 13,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "bật giùm cái đèn lồng 1 cái coi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cái lồng đèn đó ở chỗ nào vậy chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chờ 6",
+                "start": 8,
+                "end": 19
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 31,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Nó ngay phòng chờ 6 ấy, để mức 3 nhá."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

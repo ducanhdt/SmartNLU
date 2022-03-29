@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "van nước 2",
+                "start": 5,
+                "end": 15
+            },
+            {
+                "name": "syspercentage",
+                "value": "69 phần trăm",
+                "start": 16,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "tăng van nước 2 69 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em chào anh chị"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em giúp được gì anh chị không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 14,
+                "end": 17
+            },
+            {
+                "name": "device",
+                "value": "âm thanh đa vùng 3",
+                "start": 23,
+                "end": 41
+            },
+            {
+                "name": "room",
+                "value": "wc 5",
+                "start": 46,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "buồn tẻ quá . Bật giúp âm thanh đa vùng 3 tại wc 5 được không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin lỗi về trải nghiệm của anh chị. Anh chị có thể cho biết thêm mức độ bật được không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

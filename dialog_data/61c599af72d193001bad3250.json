@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, không biết bạn có vấn đề gì cần giúp ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng để bàn 3",
+                "start": 14,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Bật giúp mình bóng để bàn 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần bật theo mức độ hay phần trăm ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 24,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "mình cần bật lên cấp độ 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đèn bạn cần bật ở phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng gia đình 8",
+                "start": 0,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "phòng gia đình 8 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

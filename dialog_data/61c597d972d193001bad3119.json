@@ -1,0 +1,101 @@
+[
+    {
+        "content": {
+            "text": "Ciao"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo thông minh nhất quả đất đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào, hãy thông minh cùng mình nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "okela"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn hãy bắt đầu yêu cầu tôi đi nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 13,
+                "end": 16
+            },
+            {
+                "name": "device",
+                "value": "màn cửa 2",
+                "start": 29,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Ok. Giúp tôi tắt thiết bị là màn cửa 2 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Thiết bị này nằm ở đâu vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng lễ tân 4",
+                "start": 6,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "nằm ở phòng lễ tân 4 nhá. Cảm ơn bạn nhiều"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

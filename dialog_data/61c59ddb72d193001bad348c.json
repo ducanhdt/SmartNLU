@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "hey"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "i can help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "what do you want"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "rgb 1",
+                "start": 4,
+                "end": 9
+            },
+            {
+                "name": "room",
+                "value": "9",
+                "start": 16,
+                "end": 17
+            },
+            {
+                "name": "syspercentage",
+                "value": "62 phần trăm",
+                "start": 18,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "bật rgb 1 phòng 9 62 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

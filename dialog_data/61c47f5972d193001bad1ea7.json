@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "lại là trợ lý ảo đâyyy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trần 3",
+                "start": 28,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng nữ 7",
+                "start": 41,
+                "end": 51
+            }
+        ],
+        "content": {
+            "text": "à biết r , kiểm tra cho tôi đèn trần 3 ở phòng nữ 7 nhé :V"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "XIn chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể yêu cầu tôi rồi ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " chiết áp 1",
+                "start": 23,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "sân sau",
+                "start": 37,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của chiết áp 1 ở sân sau nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

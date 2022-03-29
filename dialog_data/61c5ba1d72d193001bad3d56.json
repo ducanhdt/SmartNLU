@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo VN đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "không biết bạn cần hỗ trợ gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng trần 2",
+                "start": 14,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "Tắt giúp mình bóng trần 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở đâu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng dành cho nữ 9",
+                "start": 2,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Ở phòng dành cho nữ 9 nhé. Cám ơn bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

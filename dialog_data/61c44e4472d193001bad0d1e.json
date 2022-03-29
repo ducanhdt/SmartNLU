@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sưởi 2",
+                "start": 20,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng hội thảo 2",
+                "start": 35,
+                "end": 51
+            }
+        ],
+        "content": {
+            "text": "kiểm tra trạng thái đèn sưởi 2 tại phòng hội thảo 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

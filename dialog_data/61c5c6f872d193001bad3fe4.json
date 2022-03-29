@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "xin chào tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "hãy chắc chắn bạn có đường truyền tốt để đem lại trải nghiệm tốt nhất "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 2",
+                "start": 17,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "phòng thu âm 4",
+                "start": 34,
+                "end": 48
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Hãy tắt thiết bị đèn trụ cổng 2 ở phòng thu âm 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

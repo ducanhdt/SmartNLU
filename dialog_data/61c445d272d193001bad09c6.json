@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "mình là trợ lý ảo đây, mình có thể giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "92 phần trăm",
+                "start": 29,
+                "end": 41
+            },
+            {
+                "name": "device",
+                "value": "đèn led 3",
+                "start": 15,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Mình muốn tăng đèn led 3 lên 92 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cho thêm thông tin vị trí về đèn đó được không ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "8",
+                "start": 16,
+                "end": 17
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 7,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "Ở tầng 7, phòng 8 nhé, giúp mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

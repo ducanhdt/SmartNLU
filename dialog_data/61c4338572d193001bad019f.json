@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tvs 1",
+                "start": 17,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "phòng vệ sinh 2",
+                "start": 25,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "kiểm tra hộ mình tvs 1 ở phòng vệ sinh 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

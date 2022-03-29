@@ -1,0 +1,85 @@
+[
+    {
+        "content": {
+            "text": "hello boss"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Chào trợ lý"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho e vài yêu cầu để làm đê"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn nhiều màu 3",
+                "start": 21,
+                "end": 36
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 7,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "Trợ lý tắt giùm mình đèn nhiều màu 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào nói nuôn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "gara 9",
+                "start": 0,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "gara 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

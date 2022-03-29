@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, mình luôn sẵn sàng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cây 1",
+                "start": 15,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "nhất bạn, tăng đèn cây 1 lên một tí hộ bạn với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tăng lên bao nhiêu hả bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 54,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "nhà mình có 1 tầng thôi bạn, nếu bạn hỏi phòng thì là phòng tắm nhaaa"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "à đèn phòng tắm hả"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn chỉnh lên mức nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 3 nhó"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

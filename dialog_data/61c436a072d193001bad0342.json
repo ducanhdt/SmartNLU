@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Xin chào tôi giúp gì được cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " điện 1",
+                "start": 14,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp mình điện 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm điện ở phòng nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng sinh hoạt chung 6",
+                "start": 15,
+                "end": 38
+            },
+            {
+                "name": "syspercentage",
+                "value": "62 %",
+                "start": 45,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp mình phòng sinh hoạt chung 6 xuống 62 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

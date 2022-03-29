@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn làm gì "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt 3",
+                "start": 26,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "hệ thống gì vậy, kiểm tra bóng hắt 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bóng hắt 3 phòng nào thế"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghỉ 6",
+                "start": 2,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "à phòng nghỉ 6 đó"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

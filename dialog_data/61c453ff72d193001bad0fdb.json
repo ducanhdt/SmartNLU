@@ -1,0 +1,56 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt 1",
+                "start": 23,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Giúp tui giảm thiết bị đèn hắt 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào và bao nhiêu phần trăm ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "hành lang 1",
+                "start": 2,
+                "end": 13
+            },
+            {
+                "name": "syspercentage",
+                "value": "60 phần trăm",
+                "start": 20,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Ở hành lang 1, giảm 60 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "anh nhanh giùm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "sắp đến giờ tan ca của em rồi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 88,
+                "end": 91
+            },
+            {
+                "name": "device",
+                "value": "đèn làm việc 3",
+                "start": 100,
+                "end": 114
+            },
+            {
+                "name": "room",
+                "value": "đầu hè 1",
+                "start": 117,
+                "end": 125
+            }
+        ],
+        "content": {
+            "text": "Bực ghê, trời thì sáng chang chang thế này, giữa ban ngày bật đèn làm gì không biết, em tắt dùm anh đèn làm việc 3 ở đầu hè 1 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

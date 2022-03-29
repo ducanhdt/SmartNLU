@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp bạn làm công việc gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt 3",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Mình cần tăng mức bóng hắt 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng mức của đèn lên bao nhiêu vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "91 phần trăm",
+                "start": 7,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Khoảng 91 phần trăm là được"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể nêu rõ vị trí của đèn tại phòng nào, tầng mấy giúp mình được không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phỏng tập",
+                "start": 0,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Phỏng tập tầng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

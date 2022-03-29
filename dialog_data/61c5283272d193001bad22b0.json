@@ -1,0 +1,49 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào trợ lý béo"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "chào anh, anh cần gì anh béo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cảnh 3 ",
+                "start": 17,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": "phòng trẻ em 3",
+                "start": 32,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra cho anh đèn cảnh 3 tại phòng trẻ em 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

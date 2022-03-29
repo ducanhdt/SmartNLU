@@ -1,0 +1,93 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình là trợ lí ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào trợ lý ảo"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì khoogn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "màn cuốn 1",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "mình muốn tắt cái màn cuốn 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cho mình hỏi cái màn đó ở đâu nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ông chủ 7",
+                "start": 9,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "màn đó ở phòng ông chủ 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

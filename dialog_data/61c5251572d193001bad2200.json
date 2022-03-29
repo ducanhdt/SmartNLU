@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sưởi 2",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 19,
+                "end": 20
+            },
+            {
+                "name": "room",
+                "value": "phòng hội thảo 9",
+                "start": 23,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "Bật đèn sưởi 2 mức 1 ở phòng hội thảo 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

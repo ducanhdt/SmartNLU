@@ -1,0 +1,91 @@
+[
+    {
+        "content": {
+            "text": "alu trợ lý ảo tiếp đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý có đó chứ, mình cần bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "có có. Bạn cần gì thế"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành cuốn 3",
+                "start": 27,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 41,
+                "end": 52
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 19,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "trời nắng quá, bạn bật cái mành cuốn 3 ở phòng khách giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật mành cuốn 95 ở mức bao nhiêu phần trăm vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 8,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "bạn bật 56 phần trăm là đủ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

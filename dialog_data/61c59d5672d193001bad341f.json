@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần mình giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn vui lòng ngoặc kép vào các giá trị để thuận tiện cho việc xác minh nhé"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "rèm đơn 2",
+                "start": 13,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "giúp tôi bật rèm đơn 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phiền anh cho biết phần trăm cần bật và phòng bao nhiêu hộ em"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 11,
+                "end": 18
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 %",
+                "start": 25,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Tôi đã bảo phòng 2 ở mức 80 % rồi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

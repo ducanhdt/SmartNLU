@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "alo trợ lý ảo đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm trần 3",
+                "start": 23,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Bạn kiểm tra giúp mình âm trần 3 với, mình nghĩ nó có vấn đề"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "âm trần 3 ở phòng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng hội nghị 5",
+                "start": 0,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "phòng hội nghị 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

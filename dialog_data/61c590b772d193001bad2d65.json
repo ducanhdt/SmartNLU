@@ -1,0 +1,83 @@
+[
+    {
+        "content": {
+            "text": "bạn yêu cầu gì "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "alo"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn vườn 2",
+                "start": 7,
+                "end": 17
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 phần trăm",
+                "start": 24,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "bật hộ đèn vườn 2 ở mức 80 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 2 nhé bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

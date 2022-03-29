@@ -1,0 +1,117 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần trợ giúp đúng không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lýyyyyyyy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi luôn sẵn sàng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "hắt trần 2",
+                "start": 32,
+                "end": 42
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 41,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Được bạn, bạn là nhất, tăng cái hắt trần 2 lên cấp 2 hộ bạn với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhiều phòng quá, bạn muốn phòng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Trợ lí ảo hiện tại chưa nhận được tên phòng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mong bạn nhanh chóng phản hồi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "1",
+                "start": 25,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "nhà tôi có mỗi cái phòng 1 thôi bạn ạ, bạn khịa tôi à?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin chào, mình có thể giúp gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đơn 2",
+                "start": 24,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "mình muốn giảm thiệt bị màn cửa đơn 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm nó xuống mức bao nhiêu và ở phòng nào tầng nào thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 21,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "mình muốn giảm ở mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok. Cho mình biết thêm vị trí của màn này ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 21,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "8",
+                "start": 12,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "giảm ở room 8, floor 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

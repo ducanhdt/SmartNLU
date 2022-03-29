@@ -1,0 +1,108 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi là trợ lý ảo. Bạn cần giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đơn 2",
+                "start": 34,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn giảm mức độ của thiết bị màn cửa đơn 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok đã nhận diện màn cửa đơn 77"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin hãy cho tôi biết bạn muốn giảm xuống mức bao nhiêu?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Và vị trí của màn cửa đơn này với?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Giảm xuống mức 1 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok. Cho mình thông tin về phòng với"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "3",
+                "start": 6,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "nhé",
+                "start": 17,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Phòng 301 tầng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng làm việc 3",
+                "start": 32,
+                "end": 47
+            },
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 11,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "em có biết thay đổi màu sắc của bóng làm việc 3 không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ăn",
+                "start": 7,
+                "end": 15
+            },
+            {
+                "name": "floorNumber",
+                "value": "8",
+                "start": 37,
+                "end": 38
+            },
+            {
+                "name": "syscolor",
+                "value": "màu trắng",
+                "start": 21,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "em đổi phòng ăn sang màu trắng, tầng 8 nhé!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

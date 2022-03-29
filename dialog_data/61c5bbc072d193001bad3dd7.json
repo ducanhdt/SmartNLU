@@ -1,0 +1,116 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình là trợ lý ảo SmartHome"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng đứng 3",
+                "start": 21,
+                "end": 32
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 35,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "Hãy tăng giúp ta cái bóng đứng 3 ở phòng ngủ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đã tăng theo ý bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhưng bạn muốn tăng lên bao nhiêu phần trăm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "84 %",
+                "start": 16,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "tăng cho ta lên 84 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhà ta có nhiều phòng ngủ, bạn muốn tăng bóng ở phòng ngủ tầng mấy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 0,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

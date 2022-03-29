@@ -1,0 +1,74 @@
+[
+    {
+        "content": {
+            "text": "hello anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cần gì không nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hoa 2",
+                "start": 25,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "Em ơi check giúp anh xem đèn hoa 2 có bật không nhá."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đèn mình phòng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng em nhỏ 1",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng em nhỏ 1 nhé em ơi."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

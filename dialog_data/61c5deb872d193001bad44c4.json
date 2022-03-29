@@ -1,0 +1,62 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng vườn 3",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "thư viện 6",
+                "start": 28,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "bật giúp mình bóng vườn 3 ở thư viện 6 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bật ở mức nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 0,
+                "end": 1
+            }
+        ],
+        "content": {
+            "text": "3 nha bạn. Cảm ơn bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

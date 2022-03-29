@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần tôi giải đáp thắc mắc hay thực hiện yêu cầu gì không ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cảnh 3",
+                "start": 13,
+                "end": 23
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng trẻ em 9",
+                "start": 30,
+                "end": 44
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 54,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "bật thiết bị đèn cảnh 3 trong phòng trẻ em 9 ở mức độ 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

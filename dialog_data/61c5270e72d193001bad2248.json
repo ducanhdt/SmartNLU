@@ -1,0 +1,114 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 3,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "Em bật đèn giúp anh được không nhỉ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh muốn bật thiết bị nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn để bàn 3",
+                "start": 7,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "em tìm đèn để bàn 3 được không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh muốn bật mức mấy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 4 nhé đừng nhầm bro"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng ạ, thế ở phòng nào anh nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ông bà 9",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng ông bà 9 oke em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

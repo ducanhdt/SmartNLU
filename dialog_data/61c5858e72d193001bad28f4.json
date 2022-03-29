@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn làm việc 1 ",
+                "start": 18,
+                "end": 33
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh lá ",
+                "start": 38,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "thay đổi cho mình đèn làm việc 1 sang màu xanh lá nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn thay đổi đèn phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở tầng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi màu sắc",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 19,
+                "end": 28
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 29,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "thay đổi màu sắc ở phòng ngủ tầng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào mừng bạn đến với chương trình ngày hôm nay"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "device",
+                "value": " cảnh 2",
+                "start": 16,
+                "end": 23
+            },
+            {
+                "name": "room",
+                "value": "phòng chứa đồ 6",
+                "start": 30,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Hãy bật giúp tôi cảnh 2 trong phòng chứa đồ 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở mức phần trăm bao nhiêu ạ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "59 %",
+                "start": 0,
+                "end": 4
+            }
+        ],
+        "content": {
+            "text": "59 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

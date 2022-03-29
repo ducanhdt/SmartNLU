@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn nhiều màu 2",
+                "start": 5,
+                "end": 20
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 29,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 35,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "tăng đèn nhiều màu 2 lên mức 1 tại phòng ngủ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

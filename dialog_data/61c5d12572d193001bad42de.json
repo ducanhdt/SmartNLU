@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình hơi chán"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hãy ra yêu cầu cho mình"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng vườn 1",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 17,
+                "end": 24
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 25,
+                "end": 31
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "giảm bóng vườn 1 phòng 4 tầng 2 cấp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hân hạnh được phục vụ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần mình giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 2",
+                "start": 16,
+                "end": 32
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật hộ mình cái bình nóng lạnh 2 để mình tắm cái"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Dạ vâng ạ, bạn muốn bật ở mức bao nhiêu nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 4,
+                "end": 5
+            },
+            {
+                "name": "room",
+                "value": "phòng thay đồ 7",
+                "start": 29,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "lên 2 bạn nhá, mình sẽ tắm ở phòng thay đồ 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

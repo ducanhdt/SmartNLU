@@ -1,0 +1,83 @@
+[
+    {
+        "content": {
+            "text": "mình có thể giúp gì được cho bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm cửa đôi 1",
+                "start": 39,
+                "end": 52
+            },
+            {
+                "name": "syspercentage",
+                "value": "64 %",
+                "start": 57,
+                "end": 61
+            }
+        ],
+        "content": {
+            "text": "nhưng thôi ksao, lỡ gặp rồi. Giúp mình rèm cửa đôi 1 mức 64 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn nói luôn phòng và tầng đi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 2,
+                "end": 13
+            },
+            {
+                "name": "floorNumber",
+                "value": "1",
+                "start": 19,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "ở phòng khách tầng 1 giúp mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

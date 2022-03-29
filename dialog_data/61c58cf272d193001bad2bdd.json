@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Hi, bạn muốn làm gì?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút ấn 3",
+                "start": 14,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "mình muốn tắt nút ấn 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào? và bạn muốn làm gì với thiết bị?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng ăn trưa 3",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 30,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Phòng ăn trưa 3 nha. Mình cần tắt nút ấn ."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

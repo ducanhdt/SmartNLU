@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "máy lạnh 3",
+                "start": 14,
+                "end": 24
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 33,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng xông hơi 5",
+                "start": 39,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "Trợ lý ảo bật máy lạnh 3 lên mức 4 tại phòng xông hơi 5"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

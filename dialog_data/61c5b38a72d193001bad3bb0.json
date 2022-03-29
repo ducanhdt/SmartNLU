@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 3",
+                "start": 13,
+                "end": 22
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 27,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "vậy tăng cái cột đèn 3 lên 2 hộ mình với tối quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cột đèn có nhiều lắm bạn muốn tăng cột đèn ở phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng vệ sinh",
+                "start": 4,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "lại phòng vệ sinh bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

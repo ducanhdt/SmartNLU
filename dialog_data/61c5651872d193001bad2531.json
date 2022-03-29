@@ -1,0 +1,71 @@
+[
+    {
+        "content": {
+            "text": "em có thể giúp gì cho anh ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Chào em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nước nóng 1",
+                "start": 51,
+                "end": 67
+            }
+        ],
+        "content": {
+            "text": "trời lạnh, anh tính đi tắm, em kiểm tra hộ anh cái bình nước nóng 1 nhé, a bật không được"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bình ở phòng nào thế anh, khổ nỗi nhà to quá em chịu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng tắm xông hơi 4",
+                "start": 43,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "Hoàng Mai nhé, thôi đùa tí, bật giúp anh ở phòng tắm xông hơi 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

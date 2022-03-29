@@ -1,0 +1,56 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng tắm 8",
+                "start": 14,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "mang cudo đến phòng tắm 8 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "hết cu đơ rồi, mời naitei chọn thiết bị khác"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 8,
+                "end": 11
+            },
+            {
+                "name": "device",
+                "value": "nút nhấn 2",
+                "start": 12,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "thế thì tắt nút nhấn 2 giùm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

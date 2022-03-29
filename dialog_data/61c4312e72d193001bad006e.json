@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng vườn 2",
+                "start": 20,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "thư viện 8",
+                "start": 34,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "bạn có thế kiểm tra bóng vườn 2 ở thư viện 8 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

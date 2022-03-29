@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Hi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tvs 1",
+                "start": 13,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 21,
+                "end": 30
+            },
+            {
+                "name": "syspercentage",
+                "value": "98 phần trăm",
+                "start": 31,
+                "end": 43
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật cho mình tvs 1 ở phòng ngủ 98 phần trăm nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

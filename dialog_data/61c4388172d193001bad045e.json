@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "bạn ơi mk giúp gì được ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng led 3",
+                "start": 5,
+                "end": 15
+            },
+            {
+                "name": "sysnumber",
+                "value": "3 ",
+                "start": 14,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "giảm bóng led 3 xuống mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào tầng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 8,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng 4 tầng 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

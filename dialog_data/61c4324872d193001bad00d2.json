@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần hỗ trợ gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 3",
+                "start": 24,
+                "end": 40
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 50,
+                "end": 59
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "mình cần bạn tăng nhiệt bình nóng lạnh 3 lên 2% ở phòng tắm nhá?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

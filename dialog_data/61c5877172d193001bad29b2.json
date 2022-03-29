@@ -1,0 +1,114 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "hắt trần 2",
+                "start": 34,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể tăng giúp mình độ sáng hắt trần 2 lên được không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng lên bao nhiêu phần trăm ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "76 %",
+                "start": 38,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể tăng phần trăm độ sáng lên 76 % được không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp",
+                "start": 2,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Ở phòng bếp bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng bếp tầng bao nhiêu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 18,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Phòng ở dưới tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

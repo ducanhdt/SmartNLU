@@ -1,0 +1,74 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt tường 3",
+                "start": 26,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Thay đổi màu sắc thiết bị bóng hắt tường 3 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": " màu xám",
+                "start": 18,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "Đổi giúp mình sang màu xám"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 5",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 6",
+                "start": 9,
+                "end": 15
+            },
+            {
+                "name": "command",
+                "value": "đổi màu sắc",
+                "start": 17,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Phòng 5, tầng 6, đổi màu sắc"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng đứng 2",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "room",
+                "value": "phòng họp gia đình 8",
+                "start": 19,
+                "end": 39
+            },
+            {
+                "name": "syspercentage",
+                "value": "94 %",
+                "start": 46,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "giảm bóng đứng 2 ở phòng họp gia đình 8 xuống 94 % cho mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

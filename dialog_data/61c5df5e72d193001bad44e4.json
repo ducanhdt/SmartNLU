@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gi ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "syspercentage",
+                "value": "83 phần trăm",
+                "start": 31,
+                "end": 43
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 48,
+                "end": 59
+            },
+            {
+                "name": "device",
+                "value": "âm thanh đa vùng 2",
+                "start": 4,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "Bật âm thanh đa vùng 2 lên mức 83 phần trăm tại phòng khách"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

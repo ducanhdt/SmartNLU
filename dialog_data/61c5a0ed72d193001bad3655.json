@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 2",
+                "start": 19,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "kiểu tra giúp mình rgb 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "nhà xe 9",
+                "start": 0,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "nhà xe 9 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

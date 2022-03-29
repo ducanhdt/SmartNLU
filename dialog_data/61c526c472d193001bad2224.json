@@ -1,0 +1,89 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "bạn gì ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "trợ lý ảo có thể giúp gì được cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn làm việc 2",
+                "start": 17,
+                "end": 31
+            },
+            {
+                "name": "command",
+                "value": "thay đổi màu sắc",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh lá",
+                "start": 37,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "thay đổi màu sắc đèn làm việc 2 sang màu xanh lá tự nhiên với, cho nó thiên nhiên đi bạn :D"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "thế còn phòng và tầng thi sao ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "tất cả các phòng",
+                "start": 0,
+                "end": 16
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 22,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "tất cả các phòng trên tầng 8 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

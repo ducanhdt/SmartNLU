@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "Hi bạn, mình giúp được gì cho bạn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng họp 6",
+                "start": 9,
+                "end": 20
+            },
+            {
+                "name": "device",
+                "value": "đèn màu 2",
+                "start": 24,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "kiểm tra phòng họp 6 và đèn màu 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

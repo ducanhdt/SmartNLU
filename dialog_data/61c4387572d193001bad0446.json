@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Chào chủ nhân, tôi có thể giúp gì cho ngài?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng hoa 1",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 34,
+                "end": 41
+            },
+            {
+                "name": "syspercentage",
+                "value": "59 phần trăm",
+                "start": 20,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Bật bóng hoa 1, mức 59 phần trăm, phòng 5"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

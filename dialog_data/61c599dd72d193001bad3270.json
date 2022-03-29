@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "hello welcome my boss"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "let me help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghỉ 4",
+                "start": 15,
+                "end": 27
+            },
+            {
+                "name": "device",
+                "value": "bóng hắt 3",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "tắt bóng hắt 3 phòng nghỉ 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

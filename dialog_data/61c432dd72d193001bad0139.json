@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "hey boss"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "boss cần gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành đôi 3",
+                "start": 14,
+                "end": 24
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 33,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "giúp mình kéo mành đôi 3 lên mức 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào thế boss?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 2,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "ở phòng 4 nha, xin cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh chị muốn thực hiện gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": " điều hòa 1",
+                "start": 11,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "phòng sếp 3",
+                "start": 25,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "tắt hộ mình điều hòa 1 ở phòng sếp 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

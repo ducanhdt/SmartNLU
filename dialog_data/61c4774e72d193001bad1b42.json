@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Chào anh, em giúp gì được cho anh ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn downlight 2",
+                "start": 12,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Tắt cho anh đèn downlight 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Vâng, cảm ơn anh. Em tắt rồi anh nhé!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng giặt ủi 2",
+                "start": 2,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "Ở phòng giặt ủi 2 em nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

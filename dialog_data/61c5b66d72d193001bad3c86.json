@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm 1",
+                "start": 14,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "nhà tắm 5",
+                "start": 26,
+                "end": 35
+            },
+            {
+                "name": "syspercentage",
+                "value": "58 phần trăm",
+                "start": 42,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp tôi rèm 1 trong nhà tắm 5 xuống 58 phần trăm với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

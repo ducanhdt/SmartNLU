@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "chiết áp 1",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Mình cần kiểm tra chiết áp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Rất sẵn lòng ạ!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhưng chiết áp đó ở phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân sau 4",
+                "start": 11,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Chiết áp ở sân sau 4 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

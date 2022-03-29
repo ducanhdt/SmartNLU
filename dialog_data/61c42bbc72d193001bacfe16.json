@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 11,
+                "end": 14
+            },
+            {
+                "name": "device",
+                "value": "đèn hắt 3",
+                "start": 19,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": "hành lang 9",
+                "start": 31,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Yêu cầu em tắt cái đèn hắt 3 ở hành lang 9 ngay lập tức, nhanh nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

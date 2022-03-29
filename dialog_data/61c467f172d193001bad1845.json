@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "Chào, tôi có thể giúp gì bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt hút mùi 2",
+                "start": 35,
+                "end": 49
+            },
+            {
+                "name": "room",
+                "value": "công ty 9",
+                "start": 54,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "trợ lý ơi , giúp mình kiểm tra cái quạt hút mùi 2 tại công ty 9 nhé . Báo lại trạng thái giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

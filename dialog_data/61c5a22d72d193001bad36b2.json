@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 24,
+                "end": 27
+            },
+            {
+                "name": "device",
+                "value": "đèn nhiều màu 3",
+                "start": 28,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn giúp mình bật đèn nhiều màu 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng, bạn muốn bật sáng bao nhiêu phần trăm ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "88 phần trăm",
+                "start": 19,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "bật cho mình ở mức 88 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tôi bật đèn phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 28,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình đèn trong phòng ngủ nhé, cảm ơn bạn nhiều."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

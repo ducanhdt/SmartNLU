@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần mình giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút nhấn 3",
+                "start": 13,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "tăng device: nút nhấn 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn vui lòng cho biết mức độ và ở phòng nào nhé"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 5,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "tăng 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng làm việc",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng làm việc bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

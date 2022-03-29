@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "mình giúp gì được cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng học 1",
+                "start": 22,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Giúp mình tăng mức độ bóng học 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào vậy bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 5",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Phòng 5 bạn ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình tăng 1 cách ngẫu nhiên nhé"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "Mức 3 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

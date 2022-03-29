@@ -1,0 +1,80 @@
+[
+    {
+        "content": {
+            "text": "Hello my friend"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể làm gì cho bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hoa 2",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 34,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "hi, đèn hoa 2 sáng quá trợ lý ơi, tắt nó đi giùm mình nha ~~"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ồ có ve nó hơi sáng thật"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mà mình cần tắt ở phòng nào vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng em nhỏ 1",
+                "start": 14,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Đèn đó ngay ở phòng em nhỏ 1 nhé!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Ti vi 1",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "syspercentage",
+                "value": "75 phần trăm",
+                "start": 25,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "Ti vi 1 to quá, giảm còn 75 phần trăm giúp tôi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "được bạn, thế ti vi phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhà bạn có 20 phòng cơ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chính 2 ",
+                "start": 5,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "TV ở phòng chính 2 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

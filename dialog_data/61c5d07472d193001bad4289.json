@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút ấn 2",
+                "start": 5,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn trưa 9",
+                "start": 14,
+                "end": 29
+            },
+            {
+                "name": "syspercentage",
+                "value": "68 phần trăm",
+                "start": 30,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "giảm nút ấn 2 phòng ăn trưa 9 68 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

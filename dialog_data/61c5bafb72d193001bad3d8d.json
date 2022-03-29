@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "xin người hãy ra mệnh lệnh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng học 3",
+                "start": 26,
+                "end": 36
+            },
+            {
+                "name": "syspercentage",
+                "value": " 66 phần trăm",
+                "start": 44,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể tăng giúp mình bóng học 3 lên mức 66 phần trăm được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đồng ý chủ nhân, nhưng ngài đang nói cái bóng ở phòng nào tầng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 9,
+                "end": 18
+            },
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 29,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "Bóng bên phòng ngủ trên tầng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

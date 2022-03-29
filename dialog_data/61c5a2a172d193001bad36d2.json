@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Xin chào mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt tường 3",
+                "start": 13,
+                "end": 28
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "tắt giúp tôi đèn hắt tường 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn ở phòng nào đấy ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân vườn 7",
+                "start": 2,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "ở sân vườn 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

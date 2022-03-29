@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn làm việc 2",
+                "start": 25,
+                "end": 39
+            },
+            {
+                "name": "room",
+                "value": "đầu hè 8",
+                "start": 50,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Trợ lý gầy béo, kiểm tra đèn làm việc 2 tại phòng đầu hè 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

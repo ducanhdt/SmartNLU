@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi đã sẵn sàng để giúp bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng sợi đốt 2",
+                "start": 4,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng sách 8",
+                "start": 23,
+                "end": 35
+            },
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "Tắt bóng sợi đốt 2 tại phòng sách 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

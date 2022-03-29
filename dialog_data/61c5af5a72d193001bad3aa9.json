@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 14,
+                "end": 17
+            },
+            {
+                "name": "device",
+                "value": "bóng sợi đốt 1",
+                "start": 28,
+                "end": 42
+            },
+            {
+                "name": "room",
+                "value": "phòng sách 5",
+                "start": 45,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn bật giúp mình bóng sợi đốt 1 ở phòng sách 5 được không ạ?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật bóng sợt đốt 37 ở mức độ nào vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 25,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "bạn bật cho mình lên mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

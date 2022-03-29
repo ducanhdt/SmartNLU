@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu 1",
+                "start": 5,
+                "end": 14
+            },
+            {
+                "name": "syspercentage",
+                "value": "57 phần trăm",
+                "start": 18,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng họp 9",
+                "start": 33,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "giảm đèn màu 1 về 57 phần trăm ở phòng họp 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

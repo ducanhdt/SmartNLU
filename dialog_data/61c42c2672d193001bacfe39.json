@@ -1,0 +1,62 @@
+[
+    {
+        "content": {
+            "text": "bạn muốn giúp gi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn đứng 2",
+                "start": 17,
+                "end": 27
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 38,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "Bạn giảm hộ mình đèn đứng 2 xuống mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Ở phòng 9 tầng 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

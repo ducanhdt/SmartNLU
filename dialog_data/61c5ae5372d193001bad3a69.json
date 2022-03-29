@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 24,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": "phòng con nhỏ 7",
+                "start": 43,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn giúp mình bật thiết bị trong phòng con nhỏ 7 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bật thiết bị nào bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn kiểng 3",
+                "start": 18,
+                "end": 29
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình đèn kiểng 3 nhé, giữ ở mức 1 nữa, mình cảm ơn."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm trần 3",
+                "start": 19,
+                "end": 28
+            },
+            {
+                "name": "syspercentage",
+                "value": "73 phần trăm",
+                "start": 33,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình tăng âm trần 3 lên 73 phần trăm với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng mấy tầng mấy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 2",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 9,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Phòng 2, tầng 8 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

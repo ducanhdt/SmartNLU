@@ -1,0 +1,97 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Bạn còn ở đó không ta"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi ở đây mà, bạn làm ơn chỉ nói về yêu cầu của mình được không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 9,
+                "end": 17
+            },
+            {
+                "name": "device",
+                "value": "nút ấn 3",
+                "start": 26,
+                "end": 34
+            },
+            {
+                "name": "syscolor",
+                "value": "màu cam",
+                "start": 41,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi thay đổi màu sắc nút ấn 3 thành màu cam nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Thiết bị này nằm ở đâu bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 7,
+                "end": 14
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 16,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "Mình ở phòng 9, tầng 3 nha. Lên sửa đèn xong ở lại với mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

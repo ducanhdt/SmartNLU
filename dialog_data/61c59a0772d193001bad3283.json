@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, nice to meet you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trang trí 3",
+                "start": 37,
+                "end": 53
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 58,
+                "end": 59
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, tăng giúp mình độ sáng của bóng trang trí 3 lên 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok bạn nhá, ở phòng bao nhiêu vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 21,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Bóng trang trí ngoài phòng khách bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

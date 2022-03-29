@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Hi, "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "quạt thông gió 3",
+                "start": 13,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "văn phòng 5",
+                "start": 32,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "tắt cho mình quạt thông gió 3 ở văn phòng 5 nhe .Hihiii"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

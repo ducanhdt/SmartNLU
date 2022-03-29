@@ -1,0 +1,84 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn hiền"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tớ giúp cậu được gì nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút nhấn 2",
+                "start": 15,
+                "end": 25
+            },
+            {
+                "name": "syscolor",
+                "value": "cam",
+                "start": 31,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "cậu đổi cho tớ nút nhấn 2 sang cam nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Oke tớ biết rồi. Cậu cần làm gì với nút ấn 30 nhỉ ? và cần thực hiện trong phòng nào vậy cậu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 4,
+                "end": 11
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn 9",
+                "start": 26,
+                "end": 36
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 37,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "cậu đổi màu cho tớ nhé, ở phòng ăn 9 tầng 4 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

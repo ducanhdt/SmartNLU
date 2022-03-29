@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "tui có thể giúp gì cho bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 1",
+                "start": 13,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": "phòng thu âm 3",
+                "start": 30,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "tắt cho mình đèn trụ cổng 1 ở phòng thu âm 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

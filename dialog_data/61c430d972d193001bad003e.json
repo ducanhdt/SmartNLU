@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "chào bạn mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 3",
+                "start": 17,
+                "end": 33
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 36,
+                "end": 43
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 44,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng hộ mình bình nóng lạnh 3 ở phòng 9 tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tăng lên mức bao nhiêu ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": " 92 phần trăm",
+                "start": 8,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Tăng lên 92 phần trăm giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hôm nay em có thể giúp được gì anh/chị không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh chị có thể gửi lại thông tin được không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng downlight 3",
+                "start": 19,
+                "end": 35
+            },
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 39,
+                "end": 51
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình giảm bóng downlight 3 đi 56 phần trăm được không, mình cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bóng downlight ở phòng nào anh nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ủi 5",
+                "start": 26,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình giảm bóng ở phòng ủi 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp bạn điều gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trần 1",
+                "start": 15,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "giảm giúp mình bóng trần 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đã hiểu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bóng ở đâu hả bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 15,
+                "end": 16
+            },
+            {
+                "name": "floorNumber",
+                "value": "6",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "giảm xuống mức 3 tại tầng 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

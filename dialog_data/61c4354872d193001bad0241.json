@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Chào chủ nhân ạ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hoa 2",
+                "start": 25,
+                "end": 35
+            },
+            {
+                "name": "room",
+                "value": "phòng con 8",
+                "start": 38,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "chào, bạn kiểm soát được bóng hoa 2 ở phòng con 8 trong nhà không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": " Mình kiểm soát được"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "51 phần trăm",
+                "start": 28,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "vậy bạn giảm thiết bị xuống 51 phần trăm hộ mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

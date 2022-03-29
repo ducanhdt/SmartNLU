@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "alo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa 1",
+                "start": 20,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": " phòng bếp 8",
+                "start": 31,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "Chào, giảm giúp tôi loa 1 trong phòng bếp 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "86 phần trăm",
+                "start": 11,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "Giảm xuống 86 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

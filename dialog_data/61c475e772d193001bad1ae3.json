@@ -1,0 +1,85 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào trợ lý"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần gì?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn tròn 3",
+                "start": 22,
+                "end": 32
+            },
+            {
+                "name": "command",
+                "value": " tắt ",
+                "start": 47,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "hình như mình để quên đèn tròn 3 đang sáng, bạn tắt nó giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "cổng 9",
+                "start": 2,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "ở cổng 9 bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng led 2",
+                "start": 13,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "giảm độ sáng bóng led 2 ấy trợ lý ảo, nó sáng quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mục tiêu đã được xác định"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "85 %",
+                "start": 8,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "giảm về 85 % giúp mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ối chết, tớ lỡ giảm ở mọi phòng rồi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cậu muốn điều chỉnh ở phòng nào thế"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "ban công 7",
+                "start": 19,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Bóng ấy ngay ngoài ban công 7 nhé, cảm ơn trợ lý ảo. Good job!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "XIn chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần tư vấn gì không nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt tường 2",
+                "start": 24,
+                "end": 39
+            },
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 46,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Em làm ơn giúp tôi giảm đèn hắt tường 2 xuống 56 phần trăm , tôi hơi bị chói mắt"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm đèn ở phòng nào ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân vườn 7",
+                "start": 2,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Ở sân vườn 7 nhé, cảm ơn, yêu em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

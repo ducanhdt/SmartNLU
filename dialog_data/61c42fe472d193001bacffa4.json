@@ -1,0 +1,99 @@
+[
+    {
+        "content": {
+            "text": "Xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Chào trợ lý"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng kiểng 2",
+                "start": 15,
+                "end": 27
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Giúp mình giảm bóng kiểng 2 xuống mức 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bóng kiểng ở đâu vậy ạ ? "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cho mình biết vị trí của nó nha !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 4",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 9,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Phòng 4, tầng 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

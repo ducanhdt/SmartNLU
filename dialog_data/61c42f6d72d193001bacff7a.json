@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mong bạn nhanh chóng "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm trần 2",
+                "start": 9,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 21,
+                "end": 32
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 33,
+                "end": 39
+            },
+            {
+                "name": "syspercentage",
+                "value": "94 phần trăm",
+                "start": 44,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "bạn tăng âm trần 2 ở phòng khách tầng 5 lên 94 phần trăm hộ mình với (bôi đen bạn bỏ dấu ngoặc kép ra nhé :v)"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn 1",
+                "start": 34,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "chào chị, chị giúp em giảm mức độ đèn 1 được không ạ?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "có rất nhiều đèn , bạn muốn giảm đèn ở đâu vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 17,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Ở phòng ngủ tầng 9 chị nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm xuống mức bao nhiêu nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 12,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Giảm cho em 4 mức nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

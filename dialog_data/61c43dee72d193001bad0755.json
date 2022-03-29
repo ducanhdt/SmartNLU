@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, bạn cần giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt tường 3",
+                "start": 13,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": " sân vườn 1",
+                "start": 30,
+                "end": 41
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 50,
+                "end": 51
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "Bật giúp tôi đèn hắt tường 3 ở sân vườn 1 lên mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

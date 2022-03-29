@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "bạn cần giúp gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "TẮT",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "nút nhấn 3",
+                "start": 16,
+                "end": 26
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm 1",
+                "start": 29,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "TẮT hộ mình cái nút nhấn 3 ở phòng tắm 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

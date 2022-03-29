@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào anh ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh có cần gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sưởi 2",
+                "start": 36,
+                "end": 46
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn có thể giúp mình giảm đèn sưởi 2 về mức 2 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đèn ở đâu vậy anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 32,
+                "end": 41
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 30,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình giảm cái ở tầng 7 phòng tắm với, mình cảm ơn nhiều"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

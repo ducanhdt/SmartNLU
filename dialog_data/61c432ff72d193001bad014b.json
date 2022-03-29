@@ -1,0 +1,97 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "bạn trợ lý ơi, hỗ trợ mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chủ nhân muốn nhờ vả gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng sân 2",
+                "start": 9,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "tăng cái bóng sân 2 cho mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tăng lên bao nhiêu %, ở phòng nào, tầng nào, nói ngắn gon xúc tích"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "54 %",
+                "start": 5,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "tăng 54 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 11,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "ở phòng 4, tầng 5 nhé trợ lý"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "chào buổi tối"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 3",
+                "start": 27,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "tăng giúp mình độ sáng của cột đèn 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Vâng ạ, bạn ở phòng nào nhỉ, bạn muốn tăng lên bao nhiêu ạ "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 23,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Mình muốn tăng lên mức 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "dạ vâng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cho mình hỏi phòng của bạn với ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp",
+                "start": 0,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "phòng bếp nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

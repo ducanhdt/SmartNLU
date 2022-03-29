@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "kiểng 3",
+                "start": 14,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Giảm thiết bị kiểng 3 cho tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xuống mức mấy và room nào vậy bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": " 76 phần trăm",
+                "start": 26,
+                "end": 39
+            },
+            {
+                "name": "room",
+                "value": "phòng học 7",
+                "start": 2,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Ở phòng học 7 bạn nhé giảm 76 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

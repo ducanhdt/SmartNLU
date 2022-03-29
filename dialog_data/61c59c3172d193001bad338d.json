@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "ti vi 1",
+                "start": 5,
+                "end": 12
+            },
+            {
+                "name": "room",
+                "value": "phòng chính 1",
+                "start": 13,
+                "end": 26
+            },
+            {
+                "name": "syspercentage",
+                "value": "88 phần trăm",
+                "start": 27,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "giảm ti vi 1 phòng chính 1 88 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

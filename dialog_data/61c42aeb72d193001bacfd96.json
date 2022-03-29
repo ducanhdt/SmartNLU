@@ -1,0 +1,61 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Hello em trai"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt trần 3",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 45,
+                "end": 52
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 54,
+                "end": 60
+            },
+            {
+                "name": "syspercentage",
+                "value": "67 phần trăm",
+                "start": 30,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Giúp chị tăng quạt trần 3 lên 67 phần trăm ở phòng 7, tầng 4 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

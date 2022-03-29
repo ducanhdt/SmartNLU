@@ -1,0 +1,48 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng học 3",
+                "start": 22,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "bạn kiểm tra cho mình bóng học 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": " 69 phần trăm",
+                "start": 16,
+                "end": 29
+            },
+            {
+                "name": "command",
+                "value": " bật ",
+                "start": 3,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "bạn bật cho mình 69 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

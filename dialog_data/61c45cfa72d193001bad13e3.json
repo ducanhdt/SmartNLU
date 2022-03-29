@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn được nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "bình nước nóng 3",
+                "start": 13,
+                "end": 29
+            },
+            {
+                "name": "syspercentage",
+                "value": "66 %",
+                "start": 36,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi bật bình nước nóng 3 ở mức 66 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình rõ rồi nhưng mà bạn muốn bật ở phòng nào nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 14,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Mình muốn bật phòng 6 nhé, cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

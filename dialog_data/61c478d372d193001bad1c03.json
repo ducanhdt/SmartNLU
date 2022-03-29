@@ -1,0 +1,117 @@
+[
+    {
+        "content": {
+            "text": "hi bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn khỏe không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Mình khỏe"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt ",
+                "start": 0,
+                "end": 4
+            },
+            {
+                "name": "device",
+                "value": "đèn 3",
+                "start": 13,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "tắt cho mình đèn 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "được bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhưng mà đèn ở đâu thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhà bạn có 20 cái đèn đang bật"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "à nhầm 21 cái"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chung 6",
+                "start": 19,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Tắt cho mình đèn ở phòng chung 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

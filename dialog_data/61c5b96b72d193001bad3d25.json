@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn mình là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "không biết bạn cần hỗ trợ gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt tường 2",
+                "start": 8,
+                "end": 24
+            },
+            {
+                "name": "room",
+                "value": "phòng giặt",
+                "start": 31,
+                "end": 41
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Hãy bật bóng hắt tường 2 trong phòng giặt"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần bật ở mức độ phần trăm bao nhiêu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "95 %",
+                "start": 8,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Đặt mức 95 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

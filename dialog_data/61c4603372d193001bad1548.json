@@ -1,0 +1,99 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình giúp gì được bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "ay trợ lí ảo"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 15,
+                "end": 18
+            },
+            {
+                "name": "device",
+                "value": "đèn làm việc 3",
+                "start": 27,
+                "end": 41
+            },
+            {
+                "name": "room",
+                "value": "đầu hè 1",
+                "start": 69,
+                "end": 77
+            }
+        ],
+        "content": {
+            "text": "Thôi được rồi, bật tôi cái đèn làm việc 3. Tôi đang làm việc ở phòng đầu hè 1 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cấp độ bao nhiêu bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 20,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Bạn bật cho tôi mức 2 cho nó sáng nhé. Cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

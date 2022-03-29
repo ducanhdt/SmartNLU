@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, mình có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng vườn 3",
+                "start": 26,
+                "end": 37
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 45,
+                "end": 46
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 49,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "bạn có thể giảm độ sáng ở bóng vườn 3 về mức 2 ở phòng 9 được không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Phòng 2 ở tầng nào vậy ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 5,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "tầng 2 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo đâyyy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn downlight 3",
+                "start": 53,
+                "end": 68
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 89,
+                "end": 90
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 93,
+                "end": 104
+            }
+        ],
+        "content": {
+            "text": "Cần Tăng mức độ của thiết bị theo cấp độ , device là đèn downlight 3, chỉnh sysnumber là 4 ở phòng khách nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

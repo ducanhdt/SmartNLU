@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng rọi 2",
+                "start": 24,
+                "end": 34
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Mình muốn giảm thiết bị bóng rọi 2 xuống mức 1 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình nhận được yêu cầu rồi, bạn ở phòng và tầng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 7,
+                "end": 18
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 19,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "mình ở phòng khách tầng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

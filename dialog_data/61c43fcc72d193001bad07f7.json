@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "downlight 1",
+                "start": 32,
+                "end": 43
+            },
+            {
+                "name": "room",
+                "value": "phòng giặt 6",
+                "start": 46,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Bạn kiểm tra giúp mình thiết bị downlight 1 ở phòng giặt 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

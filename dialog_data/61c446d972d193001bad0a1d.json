@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "điều hòa 1",
+                "start": 29,
+                "end": 39
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 48,
+                "end": 49
+            },
+            {
+                "name": "room",
+                "value": "phòng số 1",
+                "start": 53,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "Trợ lý giúp mình tăng mức độ điều hòa 1 lên mức 4, ở phòng số 1 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

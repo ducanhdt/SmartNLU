@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 36,
+                "end": 39
+            },
+            {
+                "name": "device",
+                "value": "bóng 3",
+                "start": 40,
+                "end": 46
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 53,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, cho mình hỏi là mình muốn bật bóng 3 ở mức 2 thì làm như nào nhỉ?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật bóng 22 ở phòng bao nhiêu vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng dành cho nam 2",
+                "start": 16,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Mình muốn bật ở phòng dành cho nam 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

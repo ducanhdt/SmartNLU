@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần mình hỗ trợ gì thế ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn led 3",
+                "start": 25,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "Bạn ơi, bật cho mình cái đèn led 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật đèn ở mức bao nhiêu vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "87 phần trăm",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Mình muốn bật đèn ở mức 87 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật đèn ở phòng nào thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng ngủ",
+                "start": 0,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "Phòng ngủ bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

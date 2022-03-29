@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp bạn thực hiện công việc gì trong nhà nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nước nóng 3",
+                "start": 4,
+                "end": 20
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm xông hơi 3",
+                "start": 23,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "bật bình nước nóng 3 ở phòng tắm xông hơi 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật ở mức bao nhiêu thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 0,
+                "end": 1
+            }
+        ],
+        "content": {
+            "text": "2 nhé. chào bạn nha. chúc buối tối vui vẻ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

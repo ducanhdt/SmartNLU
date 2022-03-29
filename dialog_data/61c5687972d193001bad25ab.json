@@ -1,0 +1,56 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "92 phần trăm",
+                "start": 65,
+                "end": 77
+            },
+            {
+                "name": "device",
+                "value": "màn cửa 1",
+                "start": 89,
+                "end": 98
+            }
+        ],
+        "content": {
+            "text": "Thôi vào việc nhé, màn cửa nhìn ngứa mắt quá, giảm cho anh xuống 92 phần trăm nhé, à cái màn cửa 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "quất luôn anh, à phòng nào nhỉ em ngáo quá ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng lễ tân 3",
+                "start": 48,
+                "end": 62
+            }
+        ],
+        "content": {
+            "text": "Trợ lí ảo gà vl, đánh sai thì phải tự hiểu chứ, phòng lễ tân 3 nhé, bực hết cả mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

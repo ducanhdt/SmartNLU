@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "i can do anything"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "van nước 2",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "bếp 3",
+                "start": 15,
+                "end": 20
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 25,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "bật van nước 2 bếp 3 cấp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

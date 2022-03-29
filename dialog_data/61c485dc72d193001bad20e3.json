@@ -1,0 +1,77 @@
+[
+    {
+        "content": {
+            "text": "chiu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi, bạn có đó chứ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "luôn sẵn sàng phục vụ bạn yêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "device",
+                "value": " bình nước nóng 3",
+                "start": 21,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "bạn tắt giúp mình cái bình nước nóng 3 với, mình quên mất"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng tắm xông hơi 7",
+                "start": 2,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "ở phòng tắm xông hơi 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Em có thể giúp gì cho anh?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "điều hòa 1",
+                "start": 13,
+                "end": 23
+            },
+            {
+                "name": "syspercentage",
+                "value": "58 %",
+                "start": 32,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 41,
+                "end": 48
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 49,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn bật điều hòa 1 lên mức 58 % tại phòng 5 tầng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

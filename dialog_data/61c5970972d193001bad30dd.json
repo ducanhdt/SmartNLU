@@ -1,0 +1,55 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "ê"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chào bạn, mình là trợ lý ảo SmartHome, mình có thể giúp bạn làm gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 23,
+                "end": 24
+            },
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 30,
+                "end": 37
+            },
+            {
+                "name": "device",
+                "value": "đèn led 1",
+                "start": 5,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "tăng đèn led 1 lên mức 3 nhé! phòng 6 ngay và luôn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

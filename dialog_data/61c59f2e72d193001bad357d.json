@@ -1,0 +1,54 @@
+[
+    {
+        "content": {
+            "text": "bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "syscolor",
+                "value": "màu violet",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "device",
+                "value": "đèn hắt trần 3",
+                "start": 24,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 39,
+                "end": 46
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 47,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "thay đổi màu violet của đèn hắt trần 3 phòng 4 tầng 2 giúp mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

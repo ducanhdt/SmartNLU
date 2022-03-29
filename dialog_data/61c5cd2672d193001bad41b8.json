@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "hãy yêu cầu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "máy lạnh 2",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 15,
+                "end": 22
+            },
+            {
+                "name": "syspercentage",
+                "value": "78 phần trăm",
+                "start": 23,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "bật máy lạnh 2 phòng 5 78 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

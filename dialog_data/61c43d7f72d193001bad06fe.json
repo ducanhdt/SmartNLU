@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, trợ lí ảo có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ăn trưa 9",
+                "start": 18,
+                "end": 33
+            },
+            {
+                "name": "device",
+                "value": "nút ấn 2",
+                "start": 37,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "kiểm tra giúp tôi phòng ăn trưa 9 và nút ấn 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

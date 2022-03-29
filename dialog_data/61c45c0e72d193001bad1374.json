@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "chào bạn , mình có thể giúp gì được cho bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn âm trần 3",
+                "start": 14,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": " room",
+                "start": 37,
+                "end": 42
+            },
+            {
+                "name": "floorNumber",
+                "value": "floorNumber",
+                "start": 46,
+                "end": 57
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 34,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "giảm device : đèn âm trần 3 xuống 1 ở room và floorNumber"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

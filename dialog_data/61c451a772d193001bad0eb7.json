@@ -1,0 +1,54 @@
+[
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "quạt treo tường 3",
+                "start": 4,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": " phòng 9 ",
+                "start": 23,
+                "end": 32
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1 ",
+                "start": 32,
+                "end": 39
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh",
+                "start": 44,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "đổi quạt treo tường 3 ở phòng 9 tầng 1 sang màu xanh"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

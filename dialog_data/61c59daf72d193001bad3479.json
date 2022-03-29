@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Hello, bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cứ nói đi đừng ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt trần 1",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "cơ quan 8",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "name": "syspercentage",
+                "value": "74 phần trăm",
+                "start": 44,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "cho mình giảm quạt trần 1, ở cơ quan 8, mức 74 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

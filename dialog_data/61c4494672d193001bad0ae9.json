@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "downlight 2",
+                "start": 23,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng giặt 5",
+                "start": 37,
+                "end": 49
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 10,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Giúp mình tắt thiết bị downlight 2 ở phòng giặt 5, tiện quá thể"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

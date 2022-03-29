@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": " tắt ",
+                "start": 9,
+                "end": 14
+            },
+            {
+                "name": "device",
+                "value": "bóng trần 2",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "phòng dành cho nữ 2",
+                "start": 32,
+                "end": 51
+            }
+        ],
+        "content": {
+            "text": "Mình muốn tắt bóng trần 2 trong phòng dành cho nữ 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin chào, mình là trợ lý ảo thông minh đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì được cho bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn 1",
+                "start": 22,
+                "end": 27
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn bật thiết bị đèn 1 nha, yêu cầu này có thêm cái command bật ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cho mình hỏi ở phòng bao nhiêu vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chung 1",
+                "start": 2,
+                "end": 15
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Ở phòng chung 1 nhé, tiện thể cho nó lên mức 3 luôn nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

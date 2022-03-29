@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 3",
+                "start": 24,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của màn cuốn 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn kiểm tra ở phòng nào nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ông chủ 1",
+                "start": 2,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "ở phòng ông chủ 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

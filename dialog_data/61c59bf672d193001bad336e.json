@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "helô"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 3",
+                "start": 5,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": "phòng thay đồ 4",
+                "start": 22,
+                "end": 37
+            },
+            {
+                "name": "syspercentage",
+                "value": "65 phần trăm",
+                "start": 38,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "giảm bình nóng lạnh 3 phòng thay đồ 4 65 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trụ cổng 2",
+                "start": 26,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Anh ơi thiết bị là đầy đủ bóng trụ cổng 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin cho mình biết tỷ lệ giảm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "85 phần trăm",
+                "start": 12,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Giảm cho em 85 phần trăm ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Giờ xin cho mình biết phòng cần giảm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ bố mẹ",
+                "start": 3,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Là phòng ngủ bố mẹ anh nhé!"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

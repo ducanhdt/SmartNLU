@@ -1,0 +1,46 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "syscolor",
+                "value": "xanh",
+                "start": 13,
+                "end": 17
+            },
+            {
+                "name": "device",
+                "value": "van tưới 2",
+                "start": 18,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 29,
+                "end": 36
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 37,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "thay đổi màu xanh van tưới 2 phòng 4 tầng 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi, mình cần bạn giúp"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần mình giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng kiểng 3",
+                "start": 4,
+                "end": 16
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 19,
+                "end": 26
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 27,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "cái bóng kiểng 3 ở phòng 4 tầng 9 tối quá, bạn tăng sáng giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng bao nhiêu phần trăm thế ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "83 %",
+                "start": 13,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "bạn tăng lên 83 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

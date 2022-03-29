@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần tôi giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 2",
+                "start": 38,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "Hey, kiểm tra giúp tôi trạng thái của công tắc 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần kiểm tra ở phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nam 9",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng nam 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

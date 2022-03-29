@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tvs 1",
+                "start": 18,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn kiểm tra tvs 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tvs 1 ở phòng bao nhiêu vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng vệ sinh 5",
+                "start": 0,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "phòng vệ sinh 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

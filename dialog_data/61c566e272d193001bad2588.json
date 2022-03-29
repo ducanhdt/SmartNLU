@@ -1,0 +1,101 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "em có đó không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em đây anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh cần gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hoa 3",
+                "start": 20,
+                "end": 30
+            },
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 37,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "thế em giảm cho anh bóng hoa 3 xuống 56 phần trăm được không, ở phòng nào anh nói sau"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Được anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh chỉ cho em phòng đi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em vào việc luôn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng con 2",
+                "start": 2,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "ở phòng con 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

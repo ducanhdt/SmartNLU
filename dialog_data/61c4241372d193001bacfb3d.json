@@ -1,0 +1,68 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tivi 1",
+                "start": 22,
+                "end": 28
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh lam",
+                "start": 34,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "bạn giúp mình đổi màu tivi 1 sang màu xanh lam nhá."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình đã đổi màu rồi đó"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 4,
+                "end": 11
+            },
+            {
+                "name": "room",
+                "value": "phòng 8",
+                "start": 17,
+                "end": 24
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 25,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "bạn đổi màu đúng phòng 8 tầng 9 chưa đó"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

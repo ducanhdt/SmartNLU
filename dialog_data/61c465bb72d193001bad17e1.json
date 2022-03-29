@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi tối thưa ngài"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho ngài ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu 3",
+                "start": 18,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Bạn giảm cho mình đèn màu 3 được không, mình thấy hơi bị sáng quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tất nhiên thưa ngài. Ngài vui lòng cho tôi biết thêm về phòng và phần trăm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng họp 7",
+                "start": 9,
+                "end": 20
+            },
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 28,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Mình cần phòng họp 7 về mức 56 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

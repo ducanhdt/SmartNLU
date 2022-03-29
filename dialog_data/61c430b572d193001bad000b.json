@@ -1,0 +1,93 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em cứ tưởng mình là chủ nhà"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh cần em giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tắt hay bật ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nút ấn 3",
+                "start": 18,
+                "end": 26
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "tắt giúp mình cái nút ấn 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok, phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": " phòng ăn trưa 8",
+                "start": 1,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "ở phòng ăn trưa 8 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "content": {
+            "text": "chào anh ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh có cần gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn đứng 3",
+                "start": 32,
+                "end": 42
+            },
+            {
+                "name": "syscolor",
+                "value": "màu vàng",
+                "start": 48,
+                "end": 56
+            },
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 12,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Anh muốn em đổi màu cho anh cái đèn đứng 3 sang màu vàng nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh đèn ở đâu nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "floorNumber",
+                "value": "8",
+                "start": 22,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "Nó ở phòng khách tầng 8 em nhé, nhanh giúp anh"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

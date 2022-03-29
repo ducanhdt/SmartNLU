@@ -1,0 +1,62 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm cửa đôi 3",
+                "start": 14,
+                "end": 27
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng thực hành 2",
+                "start": 30,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "mình muốn bật rèm cửa đôi 3 ở phòng thực hành 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật đèn đó ở mức mấy ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

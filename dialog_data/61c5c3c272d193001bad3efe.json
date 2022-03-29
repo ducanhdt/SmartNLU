@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần tôi giúp gì ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " điều hòa 3",
+                "start": 12,
+                "end": 23
+            },
+            {
+                "name": "room",
+                "value": " phòng ngủ",
+                "start": 25,
+                "end": 35
+            },
+            {
+                "name": "syspercentage",
+                "value": "63 %",
+                "start": 43,
+                "end": 47
+            },
+            {
+                "name": "command",
+                "value": "bật ",
+                "start": 0,
+                "end": 4
+            }
+        ],
+        "content": {
+            "text": "bật cho mình điều hòa 3 ở phòng ngủ mức độ 63 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "welcome, how can i help you?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "cam",
+                "start": 22,
+                "end": 25
+            },
+            {
+                "name": "device",
+                "value": "led 2",
+                "start": 11,
+                "end": 16
+            },
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 3,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "em đổi màu led 2 sang cam nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "em hiểu rồi ạ, nhưng mà bóng led đó ở đâu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 18,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ, tầng 2 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

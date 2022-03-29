@@ -1,0 +1,113 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hôm nay mình có thể làm gì cho bạn ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Hello bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp bạn làm gì hôm nay ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "device",
+                "value": "màn cửa 3",
+                "start": 9,
+                "end": 18
+            },
+            {
+                "name": "syscolor",
+                "value": "lam",
+                "start": 24,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Thay đổi màn cửa 3 sang lam đi bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Rất vui lòng, nhưng mình cần biết vị trí cụ thể của thiết bị"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cung cấp thêm thông tin cho mình được không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "5",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "name": "room",
+                "value": "phòng vệ sinh",
+                "start": 7,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Tầng 5 phòng vệ sinh ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

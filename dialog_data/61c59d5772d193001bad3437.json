@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "bạn muốn làm gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "đèn màu 3",
+                "start": 24,
+                "end": 33
+            },
+            {
+                "name": "syspercentage",
+                "value": "67 phần trăm",
+                "start": 40,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bật giúp mình đèn màu 3 ở mức 67 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 19,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Bật cho mình đèn ở phòng ngủ nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

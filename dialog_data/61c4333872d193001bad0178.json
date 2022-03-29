@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "chào bạn mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "đầu hè 1",
+                "start": 12,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "mình đang ở đầu hè 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm thiết bị nào đến mức nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn làm việc 3",
+                "start": 13,
+                "end": 27
+            },
+            {
+                "name": "syspercentage",
+                "value": "91 %",
+                "start": 38,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "giảm hộ mình đèn làm việc 3 xuống còn 91 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

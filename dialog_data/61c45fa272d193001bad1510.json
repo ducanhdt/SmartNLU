@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "alu trợ lý ảo đâyyy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "nóng lạnh 3",
+                "start": 33,
+                "end": 44
+            },
+            {
+                "name": "room",
+                "value": "garage 7",
+                "start": 47,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của thiết bị nóng lạnh 3 ở garage 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "hi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sưởi 3",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "phòng hội thảo 6",
+                "start": 20,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "kiểm tra đèn sưởi 3 phòng hội thảo 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

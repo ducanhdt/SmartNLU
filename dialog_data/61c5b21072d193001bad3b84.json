@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp được gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cây 2",
+                "start": 26,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn giảm độ sáng của đèn cây 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm bao nhiều phần trăm nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "54 %",
+                "start": 5,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "Giảm 54 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đèn của mình ở phòng nào nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân trước 2",
+                "start": 2,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Ở sân trước 2 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

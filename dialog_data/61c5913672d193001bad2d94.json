@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Hey"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "How can I help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "đèn lồng 2",
+                "start": 14,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "mình muốn tắt đèn lồng 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Where room?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chờ 1",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng chờ 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

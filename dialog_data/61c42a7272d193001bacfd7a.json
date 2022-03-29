@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạ cần giúp gì không ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng sưởi 3",
+                "start": 38,
+                "end": 49
+            },
+            {
+                "name": "room",
+                "value": "hội trường 3",
+                "start": 52,
+                "end": 64
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình kiểm tra trạng thái của bóng sưởi 3 ở hội trường 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

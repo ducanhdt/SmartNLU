@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu sắc 1",
+                "start": 15,
+                "end": 28
+            },
+            {
+                "name": "syspercentage",
+                "value": "84 %",
+                "start": 33,
+                "end": 37
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 42,
+                "end": 51
+            },
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 59,
+                "end": 60
+            }
+        ],
+        "content": {
+            "text": "giúp mình tăng đèn màu sắc 1 lên 84 % tại phòng ngủ ở tầng 2 với :))))"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

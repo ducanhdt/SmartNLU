@@ -1,0 +1,63 @@
+[
+    {
+        "content": {
+            "text": "mình có thể giúp gì bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Chào trợ lý nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình đã sẵn sàng đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm ngang 1",
+                "start": 5,
+                "end": 16
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 25,
+                "end": 26
+            },
+            {
+                "name": "room",
+                "value": "2",
+                "start": 35,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Tăng rèm ngang 1 lên mức 3 ở phòng 2 giúp mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

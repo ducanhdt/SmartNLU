@@ -1,0 +1,84 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn mình giúp gì cho bạn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 4,
+                "end": 11
+            },
+            {
+                "name": "device",
+                "value": "nút ấn 1",
+                "start": 12,
+                "end": 20
+            },
+            {
+                "name": "syscolor",
+                "value": "màu cam",
+                "start": 27,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "bạn đổi màu nút ấn 1 thành màu cam cho mình nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn có thể cung cấp vị trí của nút ấy ở đâu được hem"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 8",
+                "start": 15,
+                "end": 22
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 25,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Nút đó ở trong phòng 8 ở tầng 9 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình giúp gì được cho bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hello, bạn cần tư vấn gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa 3",
+                "start": 6,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Chỉnh màn cửa 3 giúp mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần chỉnh lên mức bao nhiêu nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 51,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "Hừm không chắc nữa nhưng cứ chỉnh cho mình lên mức 4 thử xem"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ở phòng nào bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng khách",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Phòng khách nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "vô tuyến 2",
+                "start": 21,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "bạn kiểm tra cho tôi vô tuyến 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chánh 3",
+                "start": 0,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "phòng chánh 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật ở cấp độ bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": " bật",
+                "start": 3,
+                "end": 7
+            },
+            {
+                "name": "sysnumber",
+                "value": " 3",
+                "start": 23,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "bạn bật cho nó ở mức độ 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

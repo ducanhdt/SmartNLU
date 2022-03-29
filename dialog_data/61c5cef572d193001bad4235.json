@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Trợ lý ảo thông minh nhất hành tinh xin lắng nghe"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng để bàn 3",
+                "start": 4,
+                "end": 17
+            },
+            {
+                "name": "room",
+                "value": "phòng gia đình 8",
+                "start": 18,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "tắt bóng để bàn 3 phòng gia đình 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

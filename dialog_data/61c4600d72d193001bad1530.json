@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Xin chào mình là trợ lý ảo số 1"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp bạn được gì ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành cuốn 2",
+                "start": 15,
+                "end": 26
+            },
+            {
+                "name": "syspercentage",
+                "value": "74 phần trăm",
+                "start": 33,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Giúp mình giảm mành cuốn 2 xuống 74 phần trăm với ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình hiểu rồi nhưng bạn cần giảm ở phòng nào vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách 9",
+                "start": 2,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Ở phòng khách 9 nhé bạn yêu"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

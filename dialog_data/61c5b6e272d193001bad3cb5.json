@@ -1,0 +1,122 @@
+[
+    {
+        "content": {
+            "text": "Chào mừng bạn đến với trợ lí ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi sẵn sàng rồi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "chỉnh",
+                "start": 27,
+                "end": 32
+            },
+            {
+                "name": "device",
+                "value": "rèm ngang 1",
+                "start": 45,
+                "end": 56
+            },
+            {
+                "name": "room",
+                "value": "phòng đọc sách",
+                "start": 63,
+                "end": 77
+            }
+        ],
+        "content": {
+            "text": "Trợ lí ảo có thể giúp mình chỉnh màu sắc của rèm ngang 1 trong phòng đọc sách được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Phòng đọc sách ở tầng mấy vậy bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Màu đen tối quá ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn thích sang màu gì nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng",
+                "start": 2,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "Ở tầng 3 bạn nhé, bạn đổi giúp mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Còn mỗi màu gì thôi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "màu violet",
+                "start": 31,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Nếu được bạn đổi cho mình sang màu violet nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

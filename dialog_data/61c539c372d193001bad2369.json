@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "dạ anh cần giúp gì anh?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 7,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "Bạn ơi tắt hộ mình cái đèn cảnh với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "dạ anh muốn tắt thiết bị nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "dạ anh nói rõ tên thiết bị giúp em nhé."
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cảnh 3",
+                "start": 8,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Tắt cái đèn cảnh 3 ấy em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng ạ, nó ở phòng nào anh nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng trẻ em 7",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng trẻ em 7 em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

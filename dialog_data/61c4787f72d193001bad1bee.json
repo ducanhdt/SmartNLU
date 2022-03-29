@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có cần giúp gì không nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trang trí 3",
+                "start": 25,
+                "end": 40
+            },
+            {
+                "name": "room",
+                "value": "phòng trẻ con 7",
+                "start": 47,
+                "end": 62
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 63,
+                "end": 66
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 105,
+                "end": 106
+            }
+        ],
+        "content": {
+            "text": "trợ lý kiểm tra cho mình đèn trang trí 3 trong phòng trẻ con 7 bật không nhé, nếu có bật cho mình cấp độ 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

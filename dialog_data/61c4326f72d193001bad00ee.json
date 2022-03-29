@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 2",
+                "start": 31,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Giúp mình thay đổi màu sắc của cột đèn 2 nha !"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào tầng mấy bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "và bạn muốn thay đổi mức độ nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 11,
+                "end": 17
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "syscolor",
+                "value": "vàng",
+                "start": 39,
+                "end": 43
+            },
+            {
+                "name": "command",
+                "value": "chuyển",
+                "start": 19,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "ở phòng 5, tầng 4, chuyển nó thành màu vàng giúp mình nhé !"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

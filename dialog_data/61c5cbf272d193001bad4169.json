@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "good night"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "let me hép diu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "I sure that you very mệt mỏi now"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "71 %",
+                "start": 44,
+                "end": 48
+            },
+            {
+                "name": "device",
+                "value": "đèn sắc màu 2",
+                "start": 24,
+                "end": 37
+            },
+            {
+                "name": "room",
+                "value": "ga ra 7",
+                "start": 6,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Trong ga ra 7, hãy giảm đèn sắc màu 2 xuống 71 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

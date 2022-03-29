@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng rọi 3",
+                "start": 17,
+                "end": 27
+            },
+            {
+                "name": "syspercentage",
+                "value": "67 %",
+                "start": 32,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "tầng 9",
+                "start": 39,
+                "end": 45
+            },
+            {
+                "name": "floorNumber",
+                "value": "phòng 8",
+                "start": 46,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "trợ lý béo, tăng bóng rọi 3 lên 67 % ở tầng 9 phòng 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

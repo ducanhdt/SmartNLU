@@ -1,0 +1,83 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý có đó không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chào bạn, tôi có thể giúp được gì cho bạn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn kiểng 2",
+                "start": 11,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 25,
+                "end": 36
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật hộ cái đèn kiểng 2 ở phòng khách hộ nhé tối quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đã bật, bản muốn điều chỉnh đèn về mức bao nhiêu phần trăm"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "72 phần trăm",
+                "start": 4,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "mức 72 phần trăm thôi nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

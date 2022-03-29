@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt 3",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "phòng nghỉ 3 ",
+                "start": 22,
+                "end": 35
+            },
+            {
+                "name": "syspercentage",
+                "value": "54 phần trăm",
+                "start": 41,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "Hãy Giảm bóng hắt 3 ở phòng nghỉ 3 xuống 54 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

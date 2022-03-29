@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần giúp gì, nói đi đừng ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trụ cổng 2",
+                "start": 40,
+                "end": 55
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 phần trăm",
+                "start": 60,
+                "end": 72
+            }
+        ],
+        "content": {
+            "text": "bạn ơi chỗ mình tối quá, giúp mình tăng bóng trụ cổng 2 lên 80 phần trăm nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Được rồi đó bạn, phiền bạn cho mình biết bạn ở tầng nào và số phòng bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cứ điền số tầng và số phòng ngẫu nhiên nếu nó không hiện thông tin chính xác"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tần 5",
+                "start": 5,
+                "end": 10
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 11,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "ngay tần 5 phòng 9 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sợi đốt 2",
+                "start": 22,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "Bạn kiểm tra cho mình đèn sợi đốt 2 còn hoạt động không với ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "cổng chính 6",
+                "start": 2,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Ở cổng chính 6 ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

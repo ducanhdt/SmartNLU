@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi chiều"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn downlight 3",
+                "start": 14,
+                "end": 29
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 10,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Mình muốn tắt đèn downlight 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tắt phòng nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng giặt ủi 5",
+                "start": 6,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "humz, phòng giặt ủi 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

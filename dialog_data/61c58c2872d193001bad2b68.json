@@ -1,0 +1,134 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì được cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trang trí 3",
+                "start": 28,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "bạn làm ơn thay đổi màu sắc đèn trang trí 3 giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn chuyển sang màu gì ở phòng nào thế ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "màu violet",
+                "start": 10,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "đổi thành màu violet nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn đổi màu sắc của đèn ở phòng nào vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp",
+                "start": 2,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "ở phòng bếp nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhà mình có 2 phòng bếp, bạn muốn thay đổi màu sắc của đèn ở phòng bếp tầng mấy thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "phòng bếp tầng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "hãy đổi ngay giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

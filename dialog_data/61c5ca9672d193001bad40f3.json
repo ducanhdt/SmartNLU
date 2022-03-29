@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "hello my sir"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "let me hép diu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "welcome to my channel"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhầm, welcome to smart home"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "86 %",
+                "start": 44,
+                "end": 48
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm 5",
+                "start": 26,
+                "end": 37
+            },
+            {
+                "name": "device",
+                "value": "nút nhấn 3",
+                "start": 9,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Hãy giảm nút nhấn 3 trong phòng tắm 5 xuống 86 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "Xin chào mình có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng học 3",
+                "start": 26,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Bạn ơi, kiểm tra cho mình bóng học 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ok bạn. Phòng nào vậy bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "hiên sau 9",
+                "start": 6,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Ở chỗ hiên sau 9 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

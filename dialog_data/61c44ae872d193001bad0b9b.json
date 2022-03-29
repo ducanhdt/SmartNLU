@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo thông minh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Luôn sẵn sàng giúp chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn nhiều màu 1",
+                "start": 24,
+                "end": 39
+            },
+            {
+                "name": "room",
+                "value": "gara 4",
+                "start": 42,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "đưa mình trạng thái của đèn nhiều màu 1 ở gara 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

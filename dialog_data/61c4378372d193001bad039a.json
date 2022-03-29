@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "Xin chào tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa 1",
+                "start": 24,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "phòng bếp 2",
+                "start": 36,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của loa 1 trong phòng bếp 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp bạn thực hiện công việc nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 2",
+                "start": 25,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Bạn có thể giúp mình bật màn cửa đôi 2 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Có vẻ như bạn muốn bật thiết bị ở cấp độ nhất định thì phải"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể gửi lại yêu cầu giúp mình được không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 1",
+                "start": 18,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "phòng nghiên cứu 4",
+                "start": 34,
+                "end": 52
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình màn cửa đôi 1 ở phòng nghiên cứu 4 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Có vẻ như intent bật/tắt thiết bị không được chấp nhận"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể đổi intent sang bật thiết bị ở cấp độ nhất định được không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 2",
+                "start": 8,
+                "end": 21
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "Bạn bật màn cửa đôi 2 giúp mình được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật thiết bị ở phòng nào và ở mức bao nhiêu nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghiên cứu 5",
+                "start": 20,
+                "end": 38
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 49,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình ở phòng nghiên cứu 5 và mức độ 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

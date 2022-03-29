@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành cuốn 1",
+                "start": 40,
+                "end": 51
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, mình cần giúp tăng mức độ của mành cuốn 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần tăng bao nhiêu phần trăm ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "75 phần trăm",
+                "start": 19,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng giúp mình 75 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng ở phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 33,
+                "end": 42
+            },
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 29,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng cho mình mành cuốn 69 ở phòng ngủ tầng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

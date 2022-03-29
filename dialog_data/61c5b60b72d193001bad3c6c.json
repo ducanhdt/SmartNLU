@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần gì nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt trần 1",
+                "start": 22,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "sảnh 2",
+                "start": 43,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp tôi độ sáng đèn hắt trần 1 ngoài sảnh 2 xuống với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok giảm xuống bao nhiêu thì vừa nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "84 phần trăm",
+                "start": 6,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Xuồng 84 phần trăm bạn nhé. Cám ơn bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

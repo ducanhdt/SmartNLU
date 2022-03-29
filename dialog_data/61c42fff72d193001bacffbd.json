@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "bạn ơi mình có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 2",
+                "start": 28,
+                "end": 33
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 42,
+                "end": 43
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 46,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình tăng thiết bị rgb 2 lên mức 1 ở phòng 5 giúp mình nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

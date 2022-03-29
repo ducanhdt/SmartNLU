@@ -1,0 +1,55 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "alo em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin chào, mình là trợ lý ảo thông minh nhất thế giới, mình có thể giúp gì được cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn hắt 3",
+                "start": 12,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": "hành lang 7",
+                "start": 24,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "tắt cho anh đèn hắt 3 ở hành lang 7 cái"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

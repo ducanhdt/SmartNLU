@@ -1,0 +1,56 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " màn cửa đôi 2 ",
+                "start": 12,
+                "end": 27
+            },
+            {
+                "name": "syspercentage",
+                "value": " 63 phần trăm",
+                "start": 32,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Giảm hộ mình màn cửa đôi 2 xuống 63 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghiên cứu 1",
+                "start": 2,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Ở phòng nghiên cứu 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

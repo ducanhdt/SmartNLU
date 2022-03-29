@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần giúp gì, nói đi đừng ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng 2",
+                "start": 12,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng dành cho nam 6",
+                "start": 21,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Tắt cho tôi bóng 2 ở phòng dành cho nam 6 được không ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

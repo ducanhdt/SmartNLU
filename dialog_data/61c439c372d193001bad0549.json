@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo đây, bạn cần giúp gì "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn 3",
+                "start": 14,
+                "end": 19
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 30,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp tôi đèn 3 xuống mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi không thể giúp bạn nếu bạn không cho tôi biết cái đèn đó nằm ở đâu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ăn",
+                "start": 6,
+                "end": 14
+            },
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 20,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Đèn ở phòng ăn tầng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

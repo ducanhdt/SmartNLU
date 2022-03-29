@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn kiểng 2",
+                "start": 15,
+                "end": 26
+            },
+            {
+                "name": "syscolor",
+                "value": "màu tía",
+                "start": 32,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "bạn chuyển cái đèn kiểng 2 sang màu tía cho mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn chuyển màu ở phòng nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "7",
+                "start": 33,
+                "end": 34
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 33,
+                "end": 34
+            },
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 12,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "cái đèn cần thay đổi màu ở phòng 7 tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

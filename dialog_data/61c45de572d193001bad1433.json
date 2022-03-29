@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "bạn cần gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": " đèn màu sắc 2",
+                "start": 3,
+                "end": 17
+            },
+            {
+                "name": "room",
+                "value": "nhà để xe 6",
+                "start": 22,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "tắt đèn màu sắc 2 tại nhà để xe 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

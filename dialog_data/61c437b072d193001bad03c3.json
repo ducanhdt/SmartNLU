@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "mình có thể giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn có thể đưa yêu cầu nhiều thông tin một lúc"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 4,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "công tắc 3",
+                "start": 17,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Bạn thay đổi màu công tắc 3 giúp mình nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn thích màu nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mà công tắc đó ở đâu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "7",
+                "start": 42,
+                "end": 43
+            },
+            {
+                "name": "floorNumber",
+                "value": "6",
+                "start": 51,
+                "end": 52
+            },
+            {
+                "name": "syscolor",
+                "value": "màu hồng",
+                "start": 14,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "cho mình sang màu hồng đi, nó trong phòng 7 ở tầng 6 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

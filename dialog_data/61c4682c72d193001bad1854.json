@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hoa 3",
+                "start": 32,
+                "end": 41
+            },
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 15,
+                "end": 23
+            },
+            {
+                "name": "syscolor",
+                "value": "tía",
+                "start": 51,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "đang hơi buồn, thay đổi cho tôi đèn hoa 3 sang màu tía đi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "in which room sir"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách 6",
+                "start": 20,
+                "end": 33
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 67,
+                "end": 73
+            }
+        ],
+        "content": {
+            "text": "Tôi hiện tại đang ở phòng khách 6, nếu bạn không biết thì nó nằm ở tầng 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

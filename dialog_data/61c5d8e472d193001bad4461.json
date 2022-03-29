@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "nóng lạnh 1",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "garage 9",
+                "start": 28,
+                "end": 36
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 24,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "bật hộ TỚ cái nóng lạnh 1 ở garage 9 ở mức 1 nào CẬU"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

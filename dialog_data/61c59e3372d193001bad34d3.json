@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "hey hey"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "what do you want"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng sợi đốt 5",
+                "start": 5,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "2",
+                "start": 26,
+                "end": 27
+            },
+            {
+                "name": "floorNumber",
+                "value": "5",
+                "start": 18,
+                "end": 19
+            },
+            {
+                "name": "syspercentage",
+                "value": "60 %",
+                "start": 35,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "tăng bóng sợi đốt 5 phòng 2 tầng 2 60 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

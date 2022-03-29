@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn có cần gì ở mình không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa 2",
+                "start": 4,
+                "end": 9
+            },
+            {
+                "name": "room",
+                "value": "phòng bếp 1",
+                "start": 10,
+                "end": 21
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật loa 2 phòng bếp 1 hộ tôi nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật loa ở mức bao nhiêu thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

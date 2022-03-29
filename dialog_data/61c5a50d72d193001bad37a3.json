@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "bạn có yêu cầu gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 7,
+                "end": 10
+            },
+            {
+                "name": "device",
+                "value": "tivi 2",
+                "start": 19,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "làm ơn tắt cho tôi tivi 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng cuối 9",
+                "start": 0,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "phòng cuối 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

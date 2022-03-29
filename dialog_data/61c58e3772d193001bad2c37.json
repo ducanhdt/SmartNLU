@@ -1,0 +1,76 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì được cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "nâu",
+                "start": 51,
+                "end": 54
+            },
+            {
+                "name": "device",
+                "value": "bóng sợi đốt 3",
+                "start": 27,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Xin chào, mình cần đổi màu bóng sợi đốt 3 sang màu nâu"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn đổi màu bóng đèn sợi đốt ở phòng nào vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 24,
+                "end": 33
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 34,
+                "end": 40
+            },
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 9,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Mình cần đổi màu bóng ở phòng ngủ tầng 9."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

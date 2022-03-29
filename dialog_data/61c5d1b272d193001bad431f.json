@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Hey"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình là trợ lý ảo đỉnh của chóp"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cảnh 1",
+                "start": 5,
+                "end": 15
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 16,
+                "end": 23
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 24,
+                "end": 30
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 35,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "giảm đèn cảnh 1 phòng 9 tầng 3 cấp 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

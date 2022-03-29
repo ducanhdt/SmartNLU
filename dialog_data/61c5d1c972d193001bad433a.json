@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi tối, tôi có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 3",
+                "start": 32,
+                "end": 37
+            },
+            {
+                "name": "room",
+                "value": "nhà xe 1",
+                "start": 40,
+                "end": 48
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 16,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "nice, giúp mình bật thiết bị là rgb 3 ở nhà xe 1 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "hãy chọn mức bạn cần bật"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2 ",
+                "start": 0,
+                "end": 2
+            }
+        ],
+        "content": {
+            "text": "2 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

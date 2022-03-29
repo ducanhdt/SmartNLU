@@ -1,0 +1,70 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trang trí 3",
+                "start": 5,
+                "end": 20
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 27,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "giảm đèn trang trí 3 xuống 2 cho mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình hiểu rồi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn vui lòng cung cấp thêm thông tin phòng và tầng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 0,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 12,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "phòng ngủ ở tầng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

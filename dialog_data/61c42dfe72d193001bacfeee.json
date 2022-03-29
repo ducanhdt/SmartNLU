@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "What can i help you, bro?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": " loa còi 2",
+                "start": 11,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": "nhà vệ sinh 9",
+                "start": 24,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "tắt hộ mình loa còi 2 ở nhà vệ sinh 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

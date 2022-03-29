@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn làm gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "ti vi 3",
+                "start": 14,
+                "end": 21
+            },
+            {
+                "name": "syspercentage",
+                "value": "75 phần trăm",
+                "start": 24,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "room",
+                "start": 47,
+                "end": 51
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "giúp mình bật ti vi 3 ở 75 phần trăm tại phòng room nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

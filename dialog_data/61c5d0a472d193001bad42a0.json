@@ -1,0 +1,61 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì được cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "downlight 1",
+                "start": 17,
+                "end": 28
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 31,
+                "end": 42
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 43,
+                "end": 49
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 56,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "giảm thiết bị là downlight 1 ở phòng khách tầng 1 ở mức 2 giùm mình nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

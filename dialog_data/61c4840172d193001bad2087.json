@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "tôi là trợ lí ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "bóng hắt 1",
+                "start": 14,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Mình muốn bật bóng hắt 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhưng mà bóng ở phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng khách",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Phòng khách"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "được bạn, bạn muốn bật ở mức bao nhiêu phần trăm?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "70 phần trăm",
+                "start": 3,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "cứ 70 phần trăm xem thế nào đã, có gì chỉnh sau"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

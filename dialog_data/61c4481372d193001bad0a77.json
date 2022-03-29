@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tv 1",
+                "start": 5,
+                "end": 9
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 14,
+                "end": 15
+            },
+            {
+                "name": "room",
+                "value": " phòng 4",
+                "start": 17,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "tăng tv 1 lên 4 ở phòng 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

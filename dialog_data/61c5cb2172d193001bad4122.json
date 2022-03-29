@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "văn phòng 5",
+                "start": 38,
+                "end": 49
+            },
+            {
+                "name": "device",
+                "value": "quạt thông gió 3",
+                "start": 5,
+                "end": 21
+            },
+            {
+                "name": "syspercentage",
+                "value": "82 %",
+                "start": 25,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "giảm quạt thông gió 3 về 82 % ở trong văn phòng 5"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

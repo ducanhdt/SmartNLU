@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "bạn cần gì vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn kiểng 1",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "syspercentage",
+                "value": "73 phần trăm",
+                "start": 30,
+                "end": 42
+            },
+            {
+                "name": "room",
+                "value": "khách 5",
+                "start": 51,
+                "end": 58
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 61,
+                "end": 67
+            }
+        ],
+        "content": {
+            "text": "cho mình tăng đèn kiểng 1 lên 73 phần trăm ở phòng khách 5 , tầng 7 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

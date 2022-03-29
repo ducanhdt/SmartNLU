@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "quạt hút mùi 2",
+                "start": 4,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "công ty 1",
+                "start": 21,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "Tắt quạt hút mùi 2 ở công ty 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

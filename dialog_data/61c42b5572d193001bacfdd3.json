@@ -1,0 +1,119 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn mình giúp gì cho bạn bây giờ ^^"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa đài 1",
+                "start": 13,
+                "end": 22
+            }
+        ],
+        "content": {
+            "text": "giảm cho chị loa đài 1 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho em hỏi giảm loa đài ở đâu với xuống mức nào vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng khách em nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho em hỏi giảm về bao nhiêu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 10,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 31,
+                "end": 37
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 19,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "xuống mức 3, trong phòng khách tầng 8 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

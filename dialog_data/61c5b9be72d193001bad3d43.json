@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo VN xin chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "không biết bạn cần gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 1",
+                "start": 15,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "phòng thay đồ 7",
+                "start": 34,
+                "end": 49
+            },
+            {
+                "name": "syspercentage",
+                "value": "68 phần trăm",
+                "start": 60,
+                "end": 72
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp mình bình nóng lạnh 1 ở phòng thay đồ 7 xuống mức 68 phần trăm với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

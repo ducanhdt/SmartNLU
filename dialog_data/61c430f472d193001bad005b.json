@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng kiểng 3",
+                "start": 14,
+                "end": 26
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 %",
+                "start": 31,
+                "end": 35
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 38,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Bật giúp mình bóng kiểng 3 mức 80 % ở phòng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

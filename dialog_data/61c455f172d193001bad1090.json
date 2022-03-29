@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "chào anh chị anh chị muốn thực hiện gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 1",
+                "start": 8,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng ông chủ 8",
+                "start": 26,
+                "end": 41
+            },
+            {
+                "name": "syspercentage",
+                "value": "84 %",
+                "start": 54,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "device: màn cuốn 1, room: phòng ông chủ 8, phần trăm: 84 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

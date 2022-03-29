@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần hỗ trợ gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn sưởi 3",
+                "start": 29,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "trợ lí đáng yêu, tăng cho ta đèn sưởi 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ngài muốn tăng đến cấp độ nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 23,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "tăng cho ta lên mức độ 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Để hoàn tất, xin vui lòng cung cấp vị trí phòng ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp",
+                "start": 14,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "giúp ta cái ở phòng bếp nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

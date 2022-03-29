@@ -1,0 +1,91 @@
+[
+    {
+        "content": {
+            "text": "xin chào, em có thể giúp gì cho chị"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Alo, trợ lí có đó không"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng, em có thể giúp gì cho chị?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn vườn 3",
+                "start": 13,
+                "end": 23
+            },
+            {
+                "name": "syspercentage",
+                "value": "67 phần trăm",
+                "start": 28,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Tăng hộ mình đèn vườn 3 lên 67 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho em hỏi đèn vườn 3 ở đâu vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng khách",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 6",
+                "start": 12,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Phòng khách tầng 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

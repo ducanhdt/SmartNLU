@@ -1,0 +1,70 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn lồng 1",
+                "start": 18,
+                "end": 28
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 31,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Bật giúp mình cái đèn lồng 1 ở phòng 2 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "yêu cầu đúng đi bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tăng bao nhiêu phần trăm ' %' thế"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "75 %",
+                "start": 24,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Bật thiết bị lên khoảng 75 % giúp mình bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

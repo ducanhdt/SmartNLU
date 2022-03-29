@@ -1,0 +1,106 @@
+[
+    {
+        "content": {
+            "text": "xin chào trợ lý ảo đâyy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 3",
+                "start": 24,
+                "end": 40
+            },
+            {
+                "name": "command",
+                "value": "chỉnh",
+                "start": 14,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp mình chỉnh màu bình nóng lạnh 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bình nóng lạnh ở tầng bao nhiêu và phòng nào vậy bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 12,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 20,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Mình đang ở tầng 9, phòng 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn chuyển sang màu gì vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "màu xanh được nhưng cậu chọn slot syscolor luôn cho mình nhé "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "xanh lá",
+                "start": 4,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Màu xanh lá giúp mình với nhé, không biết có màu xanh không nhỉ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

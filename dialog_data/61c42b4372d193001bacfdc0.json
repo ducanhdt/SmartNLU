@@ -1,0 +1,52 @@
+[
+    {
+        "content": {
+            "text": "Chào anh, anh nhờ em nhanh lên ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em đang vội"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh nhờ nhanh lên em còn xạc pin"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm đơn 3",
+                "start": 9,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng thờ 4",
+                "start": 19,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "kiểm tra rèm đơn 3 phòng thờ 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

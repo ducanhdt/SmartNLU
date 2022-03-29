@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng để bàn 3",
+                "start": 17,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng gia đình 2",
+                "start": 76,
+                "end": 92
+            }
+        ],
+        "content": {
+            "text": "xin chào, t thấy bóng để bàn 3 đang có vấn đề, bạn kiểm tra giúp với, trong phòng gia đình 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

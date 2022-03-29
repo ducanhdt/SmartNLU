@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi tối"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể làm gì giúp bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trang trí 2",
+                "start": 23,
+                "end": 39
+            },
+            {
+                "name": "room",
+                "value": "phòng em bé 4",
+                "start": 42,
+                "end": 55
+            },
+            {
+                "name": "syspercentage",
+                "value": "68 phần trăm",
+                "start": 62,
+                "end": 74
+            }
+        ],
+        "content": {
+            "text": "hello , giảm giúp mình bóng trang trí 2 ở phòng em bé 4 xuống 68 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

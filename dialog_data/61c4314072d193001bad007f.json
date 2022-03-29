@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "xin chào chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi giúp gì được ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "chiết áp 1",
+                "start": 16,
+                "end": 26
+            },
+            {
+                "name": "room",
+                "value": "sân sau 9",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 8,
+                "end": 11
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 44,
+                "end": 45
+            }
+        ],
+        "content": {
+            "text": "Giúp ta bật cái chiết áp 1 ở sân sau 9, mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

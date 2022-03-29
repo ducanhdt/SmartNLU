@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo VN chào bạn . không biết bạn cần hỗ trợ gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn đứng 2",
+                "start": 31,
+                "end": 41
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 48,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "Xin chào, tôi muốn tăng cấp độ đèn đứng 2 ở mức 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng học 8",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng học 8 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

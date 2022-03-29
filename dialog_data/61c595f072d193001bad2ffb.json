@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "cần gì cứ nói b ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "van nước 3",
+                "start": 5,
+                "end": 15
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "giảm van nước 3 xuống mức 2 hộ mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào và tầng nào b nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "2",
+                "start": 6,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "8",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng 2 tầng 8 nhé! đang mệt quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

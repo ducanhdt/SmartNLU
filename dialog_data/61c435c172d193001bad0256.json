@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "trợ lý có mặt ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng trần 2",
+                "start": 18,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "bạn tăng cho mình bóng trần 2 với ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tăng lên mức nào thế boss"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "82 %",
+                "start": 19,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "tăng giúp mình lên 82 % nhé bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào thế bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 12,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ tầng 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

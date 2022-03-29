@@ -1,0 +1,52 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cửa cuốn 2",
+                "start": 8,
+                "end": 18
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh da trời",
+                "start": 24,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Đổi màu cửa cuốn 2 sang màu xanh da trời giúp tôi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào ạ, bạn muốn làm gì với nó, ở tầng nào ? "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    }
+]

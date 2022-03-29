@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn bàn 1",
+                "start": 5,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 15,
+                "end": 22
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 6",
+                "start": 23,
+                "end": 29
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 34,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "giảm đèn bàn 1 phòng 7 tầng 6 cấp 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Hello, mình có thể giúp gì bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 2",
+                "start": 30,
+                "end": 40
+            },
+            {
+                "name": "sysnumber",
+                "value": " 1",
+                "start": 48,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "trợ lý ơi . tăng cho mình cái công tắc 2 lên mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn đang ở phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "room",
+                "start": 24,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "cái công tắc 13 ở phòng room ý"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

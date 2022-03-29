@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ta có thể giúp gì cho người"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn 1",
+                "start": 4,
+                "end": 9
+            },
+            {
+                "name": "room",
+                "value": "phòng chung 3",
+                "start": 14,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "Bật đèn 1 bên phòng chung 3 giúp tôi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bật đến cấp độ bao nhiêu đó chủ nhân"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 9,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "Để ở mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

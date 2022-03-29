@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn vườn 1",
+                "start": 20,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng 8",
+                "start": 33,
+                "end": 40
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 49,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "Em bật ngay cho tôi đèn vườn 1 ở phòng 8 lên mức 3 đi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

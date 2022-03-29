@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần tôi giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn làm ơn nói cụ thể hơn được không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt trần 2",
+                "start": 9,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "thiết bị đèn hắt trần 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật độ sáng bao nhiêu phần trăm ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 4,
+                "end": 11
+            },
+            {
+                "name": "syspercentage",
+                "value": "98 phần trăm",
+                "start": 12,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "bật phòng 6 98 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

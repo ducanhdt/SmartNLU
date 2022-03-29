@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm thanh đa vùng 3",
+                "start": 20,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái âm thanh đa vùng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "âm thành phòng nào thế bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "wc 2",
+                "start": 9,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Vị trí ở wc 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

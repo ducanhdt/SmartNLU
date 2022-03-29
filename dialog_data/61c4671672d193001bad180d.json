@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "rèm đơn 3",
+                "start": 4,
+                "end": 13
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 %",
+                "start": 20,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "bật rèm đơn 3 ở mức 80 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật rèm ở phòng nào nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

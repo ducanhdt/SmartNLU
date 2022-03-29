@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "mình có thể làm gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " nút nhấn 2",
+                "start": 18,
+                "end": 29
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 50,
+                "end": 51
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 32,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "bạn giúp mình tăng nút nhấn 2 ở phòng tắm lên mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

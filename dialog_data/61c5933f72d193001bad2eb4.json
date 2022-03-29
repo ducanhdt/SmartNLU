@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì được cho bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "hắt tường 1",
+                "start": 20,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Hãy bật cho tôi đèn hắt tường 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đèn phòng nào vậy bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 15,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Mình nhầm, hãy tắt thiết bị cho mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "tiền sảnh 1",
+                "start": 2,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Ở tiền sảnh 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

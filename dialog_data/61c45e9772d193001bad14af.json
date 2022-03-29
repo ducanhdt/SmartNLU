@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 3",
+                "start": 47,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "hi bạn, mình muốn kiểm tra trạng thái thiết bị cột đèn 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng bao nhiêu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân 2",
+                "start": 0,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "sân 2 ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

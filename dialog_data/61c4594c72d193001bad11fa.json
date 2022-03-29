@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 3",
+                "start": 5,
+                "end": 15
+            },
+            {
+                "name": "syspercentage",
+                "value": "59 %",
+                "start": 20,
+                "end": 24
+            },
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 27,
+                "end": 34
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 4",
+                "start": 35,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "tăng màn cuốn 3 lên 59 % ở phòng 6 tầng 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

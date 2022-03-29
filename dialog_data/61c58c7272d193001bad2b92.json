@@ -1,0 +1,80 @@
+[
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể yêu cầu tôi làm bất cứ thứ gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có yêu cầu gì ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hắt tường 3",
+                "start": 5,
+                "end": 21
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 20,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Tăng bóng hắt tường 3 lên mức 3 giúp tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng bóng hắt tường ở phòng nào ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "8",
+                "start": 8,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "Ở phòng 8 (Do mình không muốn đưa hết thông tin trong 1 lần. Như thế sẽ không được đánh giá cao)"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

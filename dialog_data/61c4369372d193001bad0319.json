@@ -1,0 +1,102 @@
+[
+    {
+        "content": {
+            "text": "xin chào, mình có thể giúp gì cho bạn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "đèn cây 1",
+                "start": 13,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "sân trước 2",
+                "start": 25,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "tôi muốn bật đèn cây 1 ở sân trước 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 9,
+                "end": 12
+            },
+            {
+                "name": "device",
+                "value": "đèn cây 2",
+                "start": 13,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "sân trước 6",
+                "start": 25,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "tôi muốn bật đèn cây 2 ở sân trước 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật ở mức nào đó"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 4,
+                "end": 5
+            }
+        ],
+        "content": {
+            "text": "mức 2 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

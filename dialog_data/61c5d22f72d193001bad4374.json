@@ -1,0 +1,48 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng 1",
+                "start": 5,
+                "end": 11
+            },
+            {
+                "name": "room",
+                "value": "phòng 3",
+                "start": 12,
+                "end": 19
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 20,
+                "end": 26
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 10,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "giảm bóng 1 phòng 3 tầng 1 cấp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

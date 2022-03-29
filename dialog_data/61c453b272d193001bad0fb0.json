@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hoa 2",
+                "start": 12,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "phòng con 3",
+                "start": 25,
+                "end": 36
+            },
+            {
+                "name": "syspercentage",
+                "value": "81 phần trăm",
+                "start": 37,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "giảm hộ anh bóng hoa 2 ở phòng con 3 81 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

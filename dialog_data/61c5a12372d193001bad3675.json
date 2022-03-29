@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần tôi giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Đèn trụ cổng 2",
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Đèn trụ cổng 2, bạn có thể giúp tôi tăng mức độ của nó lên không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng, bạn muốn tăng lên mức nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 27,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "bạn tăng giúp mình lên mức 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi phải tăng đèn ở phòng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng khách nhé, cảm ơn bạn nhiều."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào idol"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "device",
+                "value": "đèn downlight 2",
+                "start": 18,
+                "end": 33
+            },
+            {
+                "name": "syspercentage",
+                "value": "52 phần trăm",
+                "start": 42,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "Bạn bật giúp mình đèn downlight 2 lên mức 52 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "xin hỏi đèn 80 ở phòng nào đó bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 2,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "ở phòng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

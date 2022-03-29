@@ -1,0 +1,46 @@
+[
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 5,
+                "end": 12
+            },
+            {
+                "name": "syscolor",
+                "value": "vàng",
+                "start": 35,
+                "end": 39
+            },
+            {
+                "name": "room",
+                "value": "phòng 1 ",
+                "start": 42,
+                "end": 50
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 50,
+                "end": 56
+            },
+            {
+                "name": "device",
+                "value": " đèn để bàn 3",
+                "start": 16,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "thay đổi màu của đèn để bàn 3 sang vàng ở phòng 1 tầng 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

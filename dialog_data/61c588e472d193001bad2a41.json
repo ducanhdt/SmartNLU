@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn downlight 1",
+                "start": 13,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn bật đèn downlight 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng bao nhiêu vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 5",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "syspercentage",
+                "value": "61 phần trăm",
+                "start": 17,
+                "end": 29
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 9,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Phòng 5. Bật đèn 61 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

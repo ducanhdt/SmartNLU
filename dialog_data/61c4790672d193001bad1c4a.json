@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, mình là trợ lý của bạn nè"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "chiết áp 2",
+                "start": 31,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Trợ lí ảo ơi, giảm hộ mình cái chiết áp 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cái chiết áp ở đâu bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 2,
+                "end": 13
+            },
+            {
+                "name": "floorNumber",
+                "value": "1",
+                "start": 19,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "ở phòng khách tầng 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "chỉnh về mức nào thì ổn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 9,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "giảm còn 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

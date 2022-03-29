@@ -1,0 +1,122 @@
+[
+    {
+        "content": {
+            "text": "Trợ lý ảo xin nghe"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh có nhu cầu gì cần giúp đỡ không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " tvs 1 ",
+                "start": 47,
+                "end": 54
+            },
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 56,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "Tôi cần bạn giúp, hãy thử kiểm tra giúp tôi cái tvs 1 ở phòng 6 xem nó đã bật chưa?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bật rồi anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh có yêu cầu gì nữa không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tvs 3",
+                "start": 58,
+                "end": 63
+            },
+            {
+                "name": "room",
+                "value": "phòng 4",
+                "start": 64,
+                "end": 71
+            }
+        ],
+        "content": {
+            "text": "Bạn thật thông minh. Vậy thì tôi muốn tăng cấp độ của cái tvs 3 phòng 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cảm ơn nhé"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Anh muốn tăng lên mức bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 77,
+                "end": 78
+            }
+        ],
+        "content": {
+            "text": "Bạn thông minh hơn hẳn các trợ lý khác mà tôi từng sử dụng. Bạn tăng lên mức 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "bạn cần giúp gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt 2",
+                "start": 12,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": "hành lang 3",
+                "start": 24,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "xem luôn hộ đèn hắt 2 ở hành lang 3 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

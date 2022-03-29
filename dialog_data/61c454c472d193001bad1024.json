@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Chào chị, chị cần gì vậy ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chị muốn làm thay đổi gì ở đèn màu 11 ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": " màn cửa đơn 2",
+                "start": 11,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "lễ tân 6",
+                "start": 33,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "tắt device: màn cửa đơn 2, room: lễ tân 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

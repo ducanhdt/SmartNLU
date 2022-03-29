@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "XIn chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có cần giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 14,
+                "end": 17
+            },
+            {
+                "name": "device",
+                "value": "hắt trần 1",
+                "start": 18,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "alo, tôi muốn tắt hắt trần 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hắt trần 16 ở phòng nào thế banj?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "mặt tiền 7",
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "mặt tiền 7 nhé, tắt nhanh nhé, chói quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

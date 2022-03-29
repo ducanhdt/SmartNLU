@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần tôi giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng rọi 1",
+                "start": 12,
+                "end": 22
+            },
+            {
+                "name": "syspercentage",
+                "value": "88 %",
+                "start": 29,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "bạn cho cái bóng rọi 1 xuống 88 % hộ tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi cần chỉnh bóng ở phòng nào vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "vườn 9",
+                "start": 2,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "ở vườn 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

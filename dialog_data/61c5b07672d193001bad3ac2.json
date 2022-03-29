@@ -1,0 +1,138 @@
+[
+    {
+        "content": {
+            "text": "Tôi đây bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn lại gặp khó khăn gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 16,
+                "end": 19
+            },
+            {
+                "name": "device",
+                "value": "đèn tròn 1",
+                "start": 24,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "ok luôn bạn ơi, đổi màu đèn tròn 1 hộ tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đèn ở đâu vậy bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình cần biết cả màu như thế nào nữa"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Có gì đó không đúng bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình gặp khó khăn xác định thông tin của bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 0,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "phòng ngủ tầng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Lại là oke bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn thích màu gì nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "màu nâu",
+                "start": 7,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "h sang màu nâu là ok, cảm ơn bạn nhá :v"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

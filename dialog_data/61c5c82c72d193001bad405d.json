@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Welcome to my world"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi giúp gì được bạn ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt tường 1",
+                "start": 5,
+                "end": 20
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 29,
+                "end": 30
+            },
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 35,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "Tăng đèn hắt tường 1 lên mức 4 tại phòng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

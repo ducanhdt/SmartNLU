@@ -1,0 +1,83 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi ra đi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Chào boss !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần mình làm gì cho nè !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Sẵn sàng nè !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "xanh lá",
+                "start": 39,
+                "end": 46
+            },
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 1",
+                "start": 13,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 57,
+                "end": 66
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 67,
+                "end": 73
+            },
+            {
+                "name": "command",
+                "value": "Thay đổi",
+                "start": 0,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "Thay đổi cái bình nóng lạnh 1 sang màu xanh lá đi, cái ở phòng tắm tầng 2 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

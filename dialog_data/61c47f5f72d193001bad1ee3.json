@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu 1",
+                "start": 20,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "kiểm tra trạng thái đèn màu 1 cho mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình chưa rõ đèn phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng họp 2",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng họp 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

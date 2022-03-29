@@ -1,0 +1,99 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ơi ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "trợ lý đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 12,
+                "end": 19
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 20,
+                "end": 26
+            },
+            {
+                "name": "device",
+                "value": "bóng để bàn 3",
+                "start": 57,
+                "end": 70
+            }
+        ],
+        "content": {
+            "text": "mình đang ở phòng 5 tầng 7 mà tối quá, bạn tăng sáng cái bóng để bàn 3 giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng độ sáng lên bao nhiêu phần trăm vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "75 phần trăm",
+                "start": 13,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "tăng lên mức 75 phần trăm đi trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

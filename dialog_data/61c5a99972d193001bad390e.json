@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo đây "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng sợi đốt 1",
+                "start": 5,
+                "end": 19
+            },
+            {
+                "name": "syspercentage",
+                "value": "85 %",
+                "start": 24,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Tăng bóng sợi đốt 1 lên 85 % bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng bóng đèn sợi đốt 1 tại vị trí nào vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 8",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Ở phòng 8 tầng 5 bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

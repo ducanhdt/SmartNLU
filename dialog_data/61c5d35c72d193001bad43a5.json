@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hãy yêu cầu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Siri không là gì so với mình"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình là bố của trợ lý ảo google"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "device",
+                "value": "rèm cửa 3",
+                "start": 9,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 19,
+                "end": 26
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 6",
+                "start": 27,
+                "end": 33
+            },
+            {
+                "name": "syscolor",
+                "value": "xanh lam",
+                "start": 38,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "thay đổi rèm cửa 3 phòng 7 tầng 6 màu xanh lam"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

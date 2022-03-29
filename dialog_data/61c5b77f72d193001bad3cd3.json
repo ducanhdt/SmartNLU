@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng âm trần 3",
+                "start": 13,
+                "end": 27
+            },
+            {
+                "name": "command",
+                "value": "Bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "room",
+                "value": "phòng là 7",
+                "start": 30,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Bật giúp tôi bóng âm trần 3 ở phòng là 7 lên nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật ở mức độ bao nhiêu nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Bạn để ở mức 2 giúp mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

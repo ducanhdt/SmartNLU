@@ -1,0 +1,93 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi đã sẵn sàng, bạn có yêu cầu gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghiên cứu 4",
+                "start": 11,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Tôi đang ở phòng nghiên cứu 4, cần bạn trợ giúp một chút"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "có vấn đề gì với bạn vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 3",
+                "start": 8,
+                "end": 21
+            },
+            {
+                "name": "syspercentage",
+                "value": "90 phần trăm",
+                "start": 25,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "Bạn đặt màn cửa đôi 3 là 90 phần trăm nhé, mức hiện tại hơi cao"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

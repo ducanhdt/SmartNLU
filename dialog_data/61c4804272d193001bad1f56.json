@@ -1,0 +1,99 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp đỡ gì thế ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "máy lạnh 3",
+                "start": 41,
+                "end": 51
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 33,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 0,
+                "end": 9
+            }
+        ],
+        "content": {
+            "text": "phòng ngủ của mình nóng quá, bạn bật cái máy lạnh 3 lên cho mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật ở mức bao nhiêu  ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn nhập lại mức phần trăm giúp mình "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "81 phần trăm",
+                "start": 17,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "bạn bật cho mình 81 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

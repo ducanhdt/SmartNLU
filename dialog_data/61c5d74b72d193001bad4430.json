@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "chào bạn nhá"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gì nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 14,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "bạn giúp mình tắt"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tắt gì vậy bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn vườn 3",
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "đèn vườn 3 ở"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tắt ở phòng nào vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng thu 9",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng thu 9 của tộ, nơi mà chứa 1 đống cu đơ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

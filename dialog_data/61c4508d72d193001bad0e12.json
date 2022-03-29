@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Chào đối tác, bạn cần giúp đỡ gì không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng làm việc 1",
+                "start": 23,
+                "end": 38
+            },
+            {
+                "name": "syspercentage",
+                "value": "54 %",
+                "start": 43,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Mình cần tăng thiết bị bóng làm việc 1 lên 54 % với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Thiết bị này nằm ở chỗ nào nhỉ. Tôi tìm mãi không thấy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 7,
+                "end": 14
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 15,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Mình ở phòng 6 tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào trợ lý ảo đây "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nước nóng 2",
+                "start": 9,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "thay đổi bình nước nóng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng bình nước nóng lên bao nhiêu phần trăm vậy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "74 %",
+                "start": 9,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 28,
+                "end": 37
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 38,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "tăng lên 74 % cho mình nhé, phòng tắm tầng 2, cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

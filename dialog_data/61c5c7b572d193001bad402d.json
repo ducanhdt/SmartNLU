@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "xin chào bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi là trợ lý ảo SMART HOME"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì được cho bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 17,
+                "end": 25
+            },
+            {
+                "name": "device",
+                "value": "quạt 2",
+                "start": 35,
+                "end": 41
+            },
+            {
+                "name": "syscolor",
+                "value": "màu lục",
+                "start": 48,
+                "end": 55
+            }
+        ],
+        "content": {
+            "text": "bạn ưi, tôi muốn thay đổi thiết bị quạt 2 thành màu lục"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Cụ thể tại phòng nào và tầng mấy vậy ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "ở phòng 2 tầng 3 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

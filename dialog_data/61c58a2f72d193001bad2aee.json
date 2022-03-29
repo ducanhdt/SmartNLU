@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, tôi có thể giúp gì được cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "ti vi 3",
+                "start": 5,
+                "end": 12
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 20,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Giảm ti vi 3 về mức 4 giúp tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm ti vi ở phòng nào vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 2,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 15,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "ở phòng 6 trên tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

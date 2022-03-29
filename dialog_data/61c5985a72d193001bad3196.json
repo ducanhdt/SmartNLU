@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo thông minh nhất quả Đất đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Rất hân hạnh được phục vụ bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt ",
+                "start": 0,
+                "end": 4
+            },
+            {
+                "name": "device",
+                "value": "đèn 3",
+                "start": 12,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "tắt cho tôi đèn 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Đèn nằm ở đâu vậy ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng chung 8",
+                "start": 0,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "phòng chung 8 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

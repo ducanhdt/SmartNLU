@@ -1,0 +1,88 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình là trợ lý ảo haru"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cây 1",
+                "start": 14,
+                "end": 23
+            },
+            {
+                "name": "syspercentage",
+                "value": "93 %",
+                "start": 30,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "giảm cho mình đèn cây 1 xuống 93 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "oke bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhưng mà phòng nào vậy bạn nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "sân trước 1",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "sân trước 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

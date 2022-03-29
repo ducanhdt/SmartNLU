@@ -1,0 +1,62 @@
+[
+    {
+        "content": {
+            "text": "Good night"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Do you need something?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Thay đổi",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "name": "device",
+                "value": "đèn đứng 1",
+                "start": 9,
+                "end": 19
+            },
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 20,
+                "end": 27
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 28,
+                "end": 34
+            },
+            {
+                "name": "syscolor",
+                "value": "màu vàng",
+                "start": 40,
+                "end": 48
+            }
+        ],
+        "content": {
+            "text": "Thay đổi đèn đứng 1 phòng 2 tầng 1 sang màu vàng"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

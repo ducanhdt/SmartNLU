@@ -1,0 +1,69 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "bạn gì ơi !"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "dạ em đây ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "em có thể giúp gì cho anh nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "53 %",
+                "start": 30,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 35,
+                "end": 44
+            },
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 31,
+                "end": 32
+            },
+            {
+                "name": "device",
+                "value": "đèn sợi đốt 1",
+                "start": 12,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "tăng mức độ đèn sợi đốt 1 lên 53 % phòng ngủ tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

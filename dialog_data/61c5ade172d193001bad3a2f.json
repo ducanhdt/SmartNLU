@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đơn 1",
+                "start": 4,
+                "end": 17
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật màn cửa đơn 1 lên bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "có rất nhiều màn cửa đơn, bạn muốn bật màn cửa ở phòng nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn có thể yêu cầu lại được không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "lễ tân 7",
+                "start": 2,
+                "end": 10
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 23,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Ở lễ tân 7 bạn ơi, lên 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

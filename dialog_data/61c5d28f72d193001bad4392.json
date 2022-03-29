@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 8,
+                "end": 11
+            },
+            {
+                "name": "device",
+                "value": "bòng hắt trần 1",
+                "start": 12,
+                "end": 27
+            },
+            {
+                "name": "syspercentage",
+                "value": "84 %",
+                "start": 34,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Tôi cần bật bòng hắt trần 1 ở mức 84 % nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng bao nhiêu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng thờ 3",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "Phòng thờ 3 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

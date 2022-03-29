@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "anh cần gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 12,
+                "end": 15
+            },
+            {
+                "name": "device",
+                "value": "đèn để bàn 3",
+                "start": 16,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "em giúp anh tắt đèn để bàn 3 nha em😁😁"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nó ở đâu anh ơi?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ông bà 1",
+                "start": 36,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "Ông bà anh mới đi ngủ ấy, em vô chỗ phòng ông bà 1 tắt giúp anh nhé~"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

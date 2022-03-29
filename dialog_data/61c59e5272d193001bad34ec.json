@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "Nói đi nào, tôi sẽ cố gắng giúp bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "quạt treo tường 1",
+                "start": 14,
+                "end": 31
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ 5",
+                "start": 38,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "tắt giúp mình quạt treo tường 1 ở bên phòng ngủ 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

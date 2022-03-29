@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "xin chào bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 1",
+                "start": 5,
+                "end": 18
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 17,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "phòng 7",
+                "start": 27,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "tăng màn cửa đôi 1 lên 1 ở phòng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

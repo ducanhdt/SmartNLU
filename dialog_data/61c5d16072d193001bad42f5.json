@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "xin chào 😇"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn bàn 3",
+                "start": 36,
+                "end": 45
+            },
+            {
+                "name": "sysnumber",
+                "value": " 1",
+                "start": 65,
+                "end": 67
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 48,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "xin chào, bạn ơi bạn giúp mình tăng đèn bàn 3 ở phòng ngủ lên mức 1 nhớ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

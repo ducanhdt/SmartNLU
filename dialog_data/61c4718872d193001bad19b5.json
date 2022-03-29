@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo có thể giúp được gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt trần 2",
+                "start": 13,
+                "end": 24
+            },
+            {
+                "name": "syspercentage",
+                "value": "57 phần trăm",
+                "start": 29,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "tăng hộ mình quạt trần 2 lên 57 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "quạt trần 2 tại vị trí nào vậy ? "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng",
+                "start": 13,
+                "end": 17
+            },
+            {
+                "name": "room",
+                "value": "room",
+                "start": 8,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "ở phòng room tầng floorNumber nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

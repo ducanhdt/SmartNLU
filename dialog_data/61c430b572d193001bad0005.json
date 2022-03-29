@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Hello Boss !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn nhỉ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " tivi 1",
+                "start": 4,
+                "end": 11
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 22,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "Giảm tivi 1 xuống mức 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tivi đó ở đâu vậy ạ ? Vui lòng cho tôi biết vị trí của nó !"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 9",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 9,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Phòng 9, tầng 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

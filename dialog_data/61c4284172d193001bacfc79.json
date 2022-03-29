@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi giúp được gì cho bạn, boss ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "văn phòng 9",
+                "start": 32,
+                "end": 43
+            },
+            {
+                "name": "command",
+                "value": "bật ",
+                "start": 9,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "quạt thông gió 2",
+                "start": 13,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "tôi muốn bật quạt thông gió 2 ở văn phòng 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn bật quạt thông gió nào ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 5,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "quạt 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp bạn thực hiện công việc gì vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 13,
+                "end": 16
+            },
+            {
+                "name": "device",
+                "value": "van tưới 3",
+                "start": 21,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Bạn giúp tôi tắt cái van tưới 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Van ở đâu vậy bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng nghỉ ngơi 2",
+                "start": 26,
+                "end": 43
+            }
+        ],
+        "content": {
+            "text": "Ở nhà bạn đó. Ý lộn, nó ở phòng nghỉ ngơi 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

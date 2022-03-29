@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "Xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin hãy ra lệnh cho tôi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng downlight 1",
+                "start": 8,
+                "end": 24
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "room",
+                "value": "phòng ủi 3",
+                "start": 31,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "Hãy tắt bóng downlight 1 trong phòng ủi 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

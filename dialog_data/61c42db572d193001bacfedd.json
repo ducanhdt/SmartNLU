@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "Hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "what can i help you, bro ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 1",
+                "start": 21,
+                "end": 26
+            },
+            {
+                "name": "room",
+                "value": "nhà xe 3",
+                "start": 29,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "kiểm tra giúp em cái rgb 1 ở nhà xe 3 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

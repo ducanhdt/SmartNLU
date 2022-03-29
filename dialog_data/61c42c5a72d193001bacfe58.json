@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn có muốn mình giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt trần 2",
+                "start": 14,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "giảm cho mình đèn hắt trần 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho em hỏi là thiết bị ở đâu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 13,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "Ở phòng ngủ, tầng 1 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "giảm xuống mức mấy vậy bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "giảm xuống mức 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

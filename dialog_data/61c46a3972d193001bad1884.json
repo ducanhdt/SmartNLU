@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "xin chào trợ lý ảo có thể giúp gì cho bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cảnh 2",
+                "start": 29,
+                "end": 35
+            }
+        ],
+        "content": {
+            "text": "Mình đang muốn giảm thiết bị cảnh 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "thiết bị cảnh 2 tại vị trí nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "1",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "name": "room",
+                "value": "2",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Tầng 1 phòng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm xuống mức nào vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 0,
+                "end": 1
+            }
+        ],
+        "content": {
+            "text": "1 bạn ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

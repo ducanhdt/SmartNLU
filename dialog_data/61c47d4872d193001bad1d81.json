@@ -1,0 +1,83 @@
+[
+    {
+        "content": {
+            "text": "chào bạn!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Hi trợ lí ảo ơi, tôi cần trợ giúp"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần mình giúp đỡ gì vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Đèn màu sắc 2",
+                "start": 5,
+                "end": 18
+            },
+            {
+                "name": "syspercentage",
+                "value": "87 %",
+                "start": 20,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "tăng Đèn màu sắc 2, 87 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng khách",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 9",
+                "start": 12,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "Phòng khách tầng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

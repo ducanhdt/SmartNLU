@@ -1,0 +1,106 @@
+[
+    {
+        "content": {
+            "text": "anh cần trợ giúp gì không ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 2",
+                "start": 12,
+                "end": 22
+            },
+            {
+                "name": "command",
+                "value": "đổi màu",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "đổi màu cái công tắc 2 hộ bạn với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "công tắc 2 ở đâu vậy ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn đổi sang màu gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 2,
+                "end": 11
+            },
+            {
+                "name": "syscolor",
+                "value": "màu hồng",
+                "start": 28,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ bạn ạ, đổi sang màu hồng mộng mơ nhaaaa"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng ngủ ở tầng nào ấy nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 5,
+                "end": 6
+            }
+        ],
+        "content": {
+            "text": "tầng 7 nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

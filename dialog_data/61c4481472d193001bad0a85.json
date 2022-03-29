@@ -1,0 +1,91 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình trợ lý ảo đây ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn âm trần 1",
+                "start": 0,
+                "end": 13
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 46,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "đèn âm trần 1 sáng quá, mình muốn giảm về mức 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đèn đó ở đâu thế ạ, để trợ lý giảm độ sáng nó"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "3",
+                "start": 16,
+                "end": 17
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 23,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "cái đèn ở phòng 3 tầng 7 ấy, bạn điều chỉnh cho mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

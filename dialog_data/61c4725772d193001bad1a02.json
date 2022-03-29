@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành đôi 2",
+                "start": 15,
+                "end": 25
+            },
+            {
+                "name": "syspercentage",
+                "value": "89 %",
+                "start": 30,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 39,
+                "end": 50
+            },
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 56,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "giúp mình tăng mành đôi 2 lên 89 % tại phòng khách tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

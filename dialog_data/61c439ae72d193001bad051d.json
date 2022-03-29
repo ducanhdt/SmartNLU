@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tv 3",
+                "start": 13,
+                "end": 17
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn tối 7",
+                "start": 20,
+                "end": 34
+            },
+            {
+                "name": "command",
+                "value": " tắt",
+                "start": 8,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn tắt tv 3 ở phòng ăn tối 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

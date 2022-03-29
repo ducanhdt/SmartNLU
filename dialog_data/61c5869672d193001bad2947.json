@@ -1,0 +1,52 @@
+[
+    {
+        "content": {
+            "text": "Hi "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình là trợ lý ảo đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần mình tư vấn gì khum ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa 2",
+                "start": 16,
+                "end": 25
+            },
+            {
+                "name": "room",
+                "value": "phòng lễ tân 8",
+                "start": 28,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "bạn ơi kiểm tra màn cửa 2 ở phòng lễ tân 8 dùm mình"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

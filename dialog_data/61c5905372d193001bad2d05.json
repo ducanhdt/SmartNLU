@@ -1,0 +1,106 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì được cho bạn?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "công tắc 2",
+                "start": 23,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Bạn ơi, mình muốn giảm công tắc 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm công tắc này xuống mức bao nhiêu vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Giảm xuống mức 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 7,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "Giảm ở tầng 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm ở phòng nào thế"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 6,
+                "end": 15
+            }
+        ],
+        "content": {
+            "text": "Chỉ ở phòng ngủ thôi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

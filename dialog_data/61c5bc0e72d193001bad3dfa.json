@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa 1",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng lễ tân 3",
+                "start": 43,
+                "end": 57
+            }
+        ],
+        "content": {
+            "text": "Giúp tôi kiểm tra trạng thái màn cửa 1 tại phòng lễ tân 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

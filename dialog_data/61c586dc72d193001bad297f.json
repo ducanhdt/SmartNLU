@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "Hi, "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tôi làm gì?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng học 3",
+                "start": 13,
+                "end": 23
+            },
+            {
+                "name": "room",
+                "value": "hiên sau 4",
+                "start": 26,
+                "end": 36
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 35,
+                "end": 36
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật cho mình bóng học 3 ở hiên sau 4 mức độ 4 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "mình giúp gì được cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn downlight 2",
+                "start": 14,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Giảm thiết bị đèn downlight 2 cho tôi với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "giảm đến mức nào và phòng nào bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "59 phần trăm",
+                "start": 9,
+                "end": 21
+            },
+            {
+                "name": "room",
+                "value": "phòng giặt ủi 7",
+                "start": 29,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "Giảm bớt 59 phần trăm nhé, ở phòng giặt ủi 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

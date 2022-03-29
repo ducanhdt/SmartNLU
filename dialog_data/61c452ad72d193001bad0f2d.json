@@ -1,0 +1,28 @@
+[
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt treo tường 1",
+                "start": 10,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ 1",
+                "start": 36,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "thiết bị: quạt treo tường 1 . room: phòng ngủ 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "trợ lý ảo giúp được gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đơn 2",
+                "start": 14,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "kiểm tra mình màn cửa đơn 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "màn cửa đơn 16 ở phòng nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "lễ tân 7",
+                "start": 6,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "phòng lễ tân 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

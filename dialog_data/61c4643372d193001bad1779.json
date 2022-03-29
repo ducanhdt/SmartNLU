@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "how can i help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt hút mùi 1",
+                "start": 15,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "công ty 4",
+                "start": 34,
+                "end": 43
+            },
+            {
+                "name": "syspercentage",
+                "value": "89 %",
+                "start": 50,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "giảm giúp mình quạt hút mùi 1 tại công ty 4 xuống 89 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

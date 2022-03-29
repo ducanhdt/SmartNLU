@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, tôi có thể giúp gì cho bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cửa đôi 2",
+                "start": 41,
+                "end": 54
+            }
+        ],
+        "content": {
+            "text": "trợ lí ngốc nghếch, tôi muốn tăng mức độ màn cửa đôi 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng lên bao nhiêu phần trăm nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "84 phần trăm",
+                "start": 0,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "84 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn tăng màn cửa toàn bộ nhà hay chỉ một vị trí thôi?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 19,
+                "end": 30
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 31,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "Tăng cho tôi cái ở phòng khách tầng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "hello assistant"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nói đi đừng ngại"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 1",
+                "start": 18,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "bạn giúp mình bật đèn trụ cổng 1 được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm ở mức độ nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 12,
+                "end": 13
+            },
+            {
+                "name": "room",
+                "value": "phòng 1",
+                "start": 31,
+                "end": 38
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 54,
+                "end": 60
+            }
+        ],
+        "content": {
+            "text": "giảm về mức 3 nha bạn, nó ngay phòng 1 chân cầu thang tầng 2 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn vui lòng nhập lại tên thiết bị, có vẻ thông tin thiết bị của bạn bị sai"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 2",
+                "start": 4,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "cái đèn trụ cổng 2 ấy bạn, được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

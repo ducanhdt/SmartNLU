@@ -1,0 +1,83 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào tôi cần hỗ trợ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần gì vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành đôi 1",
+                "start": 14,
+                "end": 24
+            },
+            {
+                "name": "syspercentage",
+                "value": "81 %",
+                "start": 29,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Tăng giúp tôi mành đôi 1 lên 81 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Phòng nào vậy bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": " phòng 1",
+                "start": 1,
+                "end": 9
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 6",
+                "start": 10,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Ở phòng 1 tầng 6 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

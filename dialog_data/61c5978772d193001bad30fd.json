@@ -1,0 +1,78 @@
+[
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "led 1",
+                "start": 14,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "giảm thiết bị led 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng nào bro"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "tủ giữ đồ 9",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "tủ giữ đồ 9"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bao nhiêu phần trăm bro"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "67 %",
+                "start": 0,
+                "end": 4
+            }
+        ],
+        "content": {
+            "text": "67 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào em"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng anh cần giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rgb 2",
+                "start": 47,
+                "end": 52
+            },
+            {
+                "name": "room",
+                "value": "nhà xe 8",
+                "start": 55,
+                "end": 63
+            }
+        ],
+        "content": {
+            "text": "à oki em, em hơi vội nhé, kiểm tra cho anh cái rgb 2 ở nhà xe 8 nhé, nhanh cái tay lên, đừng để anh lóng"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

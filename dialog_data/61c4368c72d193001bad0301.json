@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "quạt thông gió 3",
+                "start": 17,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "bạn giảm hộ mình quạt thông gió 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "quạt thông gió 3 ở đâu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giảm về mức nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 15,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "giảm xuống mức 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình vẫn chưa thiết bị ở đâu để giảm nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "5",
+                "start": 6,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "5",
+                "start": 6,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 5 tầng 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

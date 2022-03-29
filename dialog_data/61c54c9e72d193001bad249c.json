@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn chủ nhà đáng yêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì cho bạn trong buổi trưa hôm nay ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 6,
+                "end": 9
+            },
+            {
+                "name": "device",
+                "value": "bóng sưởi 1",
+                "start": 18,
+                "end": 29
+            },
+            {
+                "name": "syspercentage",
+                "value": "64 phần trăm",
+                "start": 32,
+                "end": 44
+            }
+        ],
+        "content": {
+            "text": "em ơi bật cho anh bóng sưởi 1 ở 64 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Em hiểu rồi ạ, nhưng anh có thể cho em biết là nên bật ở phòng nào không ạ ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 2,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "ở phòng khách em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

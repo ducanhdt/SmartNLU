@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "alo trợ lý ảo đây"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hắt 1",
+                "start": 13,
+                "end": 22
+            },
+            {
+                "name": "room",
+                "value": "hành lang 8",
+                "start": 25,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "kiểm tra tôi đèn hắt 1 ở hành lang 8 nhé . Số đấy bạn :))))"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "content": {
+            "text": "chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 2",
+                "start": 24,
+                "end": 34
+            },
+            {
+                "name": "room",
+                "value": "phòng ông chủ 5",
+                "start": 37,
+                "end": 52
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của màn cuốn 2 ở phòng ông chủ 5 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

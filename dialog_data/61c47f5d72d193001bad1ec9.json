@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 2",
+                "start": 19,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra giúp mình cột đèn 2 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng bao nhiêu bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Cột đèn 3",
+                "start": 0,
+                "end": 9
+            },
+            {
+                "name": "room",
+                "value": "sân 6",
+                "start": 12,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "Cột đèn 3 ở sân 6 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật tắt hay kiểm tra gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "Tắt",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "Tắt giúp mình bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

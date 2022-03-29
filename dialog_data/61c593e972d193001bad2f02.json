@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Xin chào, tôi là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin hãy đưa ra yêu cầu của bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng dành cho nữ 2",
+                "start": 39,
+                "end": 58
+            }
+        ],
+        "content": {
+            "text": "Tôi đang cần giảm mức độ đèn bóng trần phòng dành cho nữ 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Xin hãy viết cụ thể thông tin về thiết bị ạ? và % bạn cần giảm là bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Bóng trần 1",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "name": "syspercentage",
+                "value": "84 %",
+                "start": 17,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "Bóng trần 1 giảm 84 % nhé bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, tôi có thể giúp gì được cho bạn nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng hoa 2",
+                "start": 15,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "mình muốn giảm bóng hoa 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm xuống mức bao nhiêu vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 11,
+                "end": 12
+            }
+        ],
+        "content": {
+            "text": "Giảm xuống 1 đi bạn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm bóng hoa ở phòng nào, tầng mấy vậy?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 17,
+                "end": 24
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 26,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Mình muốn giảm ở phòng 6, tầng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

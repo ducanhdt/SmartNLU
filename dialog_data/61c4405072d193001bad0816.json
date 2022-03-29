@@ -1,0 +1,71 @@
+[
+    {
+        "content": {
+            "text": "Xin chào "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ơi em nghe, anh cần giúp gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn cảnh 1",
+                "start": 13,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "kiểm tra cái đèn cảnh 1 hộ mình xem nó đang như thế nào với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng trẻ em 8",
+                "start": 10,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "cái đèn ở phòng trẻ em 8 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

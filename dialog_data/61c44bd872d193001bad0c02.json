@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "XIn chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 2",
+                "start": 13,
+                "end": 29
+            },
+            {
+                "name": "room",
+                "value": "phòng tắm",
+                "start": 44,
+                "end": 53
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 38,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "tăng cho tôi bình nóng lạnh 2 lên mức 4 tại phòng tắm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

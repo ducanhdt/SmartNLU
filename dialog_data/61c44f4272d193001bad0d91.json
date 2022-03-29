@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "Chào đại ca, đại ca cần gì nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng đứng 2",
+                "start": 29,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "Đại ca đang cần kiểm tra cái bóng đứng 2, tiểu đệ làm được không?"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Oke rồi đấy đại ca, tiện thể cho tiểu đệ hỏi đại ca ở phòng nào và đang ở mấy mình"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng họp gia đình 7",
+                "start": 77,
+                "end": 97
+            }
+        ],
+        "content": {
+            "text": "Đại ca đang ở phòng nào, mấy mình không quan trọng, quan trọng là cái bóng ở phòng họp gia đình 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

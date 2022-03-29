@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 10,
+                "end": 13
+            },
+            {
+                "name": "device",
+                "value": "downlight 3",
+                "start": 14,
+                "end": 25
+            },
+            {
+                "name": "syspercentage",
+                "value": "90 %",
+                "start": 32,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "phòng 2",
+                "start": 46,
+                "end": 53
+            }
+        ],
+        "content": {
+            "text": "Mình muốn bật downlight 3 ở mức 90 % , mình ở phòng 2 nhé. Bot này hơi lười nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

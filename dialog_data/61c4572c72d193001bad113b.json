@@ -1,0 +1,42 @@
+[
+    {
+        "content": {
+            "text": "tôi có thể giúp gì cho bạn "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "downlight 3",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "name": "room",
+                "value": "phòng giặt 5",
+                "start": 14,
+                "end": 26
+            },
+            {
+                "name": "syspercentage",
+                "value": "62 %",
+                "start": 30,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "downlight 3 ở phòng giặt 5 về 62 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

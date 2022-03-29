@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "chào bạn, bạn cần tôi giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn bàn 3",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "name": "syspercentage",
+                "value": "55 %",
+                "start": 43,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn tăng giúp mình đèn bàn 3 lên 55 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng, bạn muốn tăng đèn ở phòng nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng làm việc",
+                "start": 29,
+                "end": 43
+            },
+            {
+                "name": "floorNumber",
+                "value": "7",
+                "start": 49,
+                "end": 50
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng giúp mình đèn trong phòng làm việc tầng 7 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "alo trợ lý ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi đây "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "trợ lý ảo chào bạn , tôi giúp được gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "vô tuyến 3",
+                "start": 10,
+                "end": 20
+            },
+            {
+                "name": "room",
+                "value": "phòng họp",
+                "start": 35,
+                "end": 44
+            },
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 50,
+                "end": 51
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 31,
+                "end": 32
+            }
+        ],
+        "content": {
+            "text": "Giảm giúp vô tuyến 3 xuống mức 1 ở phòng họp tầng 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

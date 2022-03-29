@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "trợ lí ảo, ready for action"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng 2",
+                "start": 14,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn tăng bóng 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "nhà bạn có 113 bóng đèn trong 9 phòng trên 6 tầng"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tắt đèn ở phòng nào tầng mấy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 8",
+                "start": 29,
+                "end": 35
+            },
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 17,
+                "end": 26
+            }
+        ],
+        "content": {
+            "text": "tôi muốn tắt đèn phòng ngủ ở tầng 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "được bạn yêu, nma tăng lên bao nhiêu phần trăm thế?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "80 phần trăm",
+                "start": 18,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "Tôi muốn tăng đến 80 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

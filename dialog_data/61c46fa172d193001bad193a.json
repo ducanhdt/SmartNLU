@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn cần giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "Đèn trang trí 3",
+                "start": 0,
+                "end": 15
+            },
+            {
+                "name": "room",
+                "value": "phòng trẻ con 9",
+                "start": 16,
+                "end": 31
+            }
+        ],
+        "content": {
+            "text": "Đèn trang trí 3 phòng trẻ con 9 nhanh bot ơi, giúp mình với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

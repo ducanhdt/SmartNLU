@@ -1,0 +1,70 @@
+[
+    {
+        "content": {
+            "text": "mình là trợ lý ảo của bạn, mình có thể giúp gì?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn trụ cổng 1",
+                "start": 22,
+                "end": 36
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 35,
+                "end": 36
+            }
+        ],
+        "content": {
+            "text": "Giúp mình giảm mức độ đèn trụ cổng 1 xuống mức 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "phòng bao nhiêu và ở tầng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "5",
+                "start": 13,
+                "end": 14
+            },
+            {
+                "name": "floorNumber",
+                "value": "4 ",
+                "start": 21,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "Mình ở phòng 5, tầng 4 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

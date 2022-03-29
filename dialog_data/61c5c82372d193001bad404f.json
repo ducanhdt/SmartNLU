@@ -1,0 +1,52 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi là trợ lý ảo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "let me hép diu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành đôi 3",
+                "start": 28,
+                "end": 38
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn sáng 3",
+                "start": 41,
+                "end": 56
+            }
+        ],
+        "content": {
+            "text": "cho mình xem trạng thái của mành đôi 3 ở phòng ăn sáng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

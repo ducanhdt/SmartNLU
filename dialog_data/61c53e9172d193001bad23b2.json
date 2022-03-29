@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "chào anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cần giúp gì không ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng rọi 2",
+                "start": 21,
+                "end": 31
+            },
+            {
+                "name": "syspercentage",
+                "value": "88 %",
+                "start": 36,
+                "end": 40
+            }
+        ],
+        "content": {
+            "text": "em ơi, tăng giúp anh bóng rọi 2 lên 88 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh, vậy tăng ở đâu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ 6",
+                "start": 2,
+                "end": 13
+            },
+            {
+                "name": "floorNumber",
+                "value": "9",
+                "start": 19,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "ở phòng ngủ 6 tầng 9 em ơi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn học 1",
+                "start": 16,
+                "end": 25
+            },
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 5,
+                "end": 8
+            }
+        ],
+        "content": {
+            "text": "EEy, tắt hộ cái đèn học 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Phòng nào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "hè 1",
+                "start": 0,
+                "end": 4
+            }
+        ],
+        "content": {
+            "text": "hè 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

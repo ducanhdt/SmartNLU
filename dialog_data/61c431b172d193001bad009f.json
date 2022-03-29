@@ -1,0 +1,78 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình giúp gì cho bạn không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bóng downlight 3",
+                "start": 4,
+                "end": 20
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "syspercentage",
+                "value": "80 phần trăm",
+                "start": 29,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "bật bóng downlight 3 lên mức 80 phần trăm hộ cái"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bóng đó ở phòng nào ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "1",
+                "start": 6,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 1 nhanh lên"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

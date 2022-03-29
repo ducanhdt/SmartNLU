@@ -1,0 +1,137 @@
+[
+    {
+        "content": {
+            "text": "Quả là một ngày làm việc mệt mỏi đúng không nào!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Hãy để tôi giúp bạn nhé!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "Xin chào bạn, cảm ơn bạn rất nhiều"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Rất hân hạnh ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi có thể giúp gì được bạn nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tivi 3",
+                "start": 17,
+                "end": 23
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 13,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Hãy giúp tôi bật tivi 3 lên nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn xem tivi ở phòng nào nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 0,
+                "end": 11
+            }
+        ],
+        "content": {
+            "text": "phòng khách nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tiết kiệm điện là quốc sách"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn bật tivi ở mức bao nhiêu để bảo vệ môi trường nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "56 phần trăm",
+                "start": 17,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "Xin lỗi bạn nhá. 56 phần trăm ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

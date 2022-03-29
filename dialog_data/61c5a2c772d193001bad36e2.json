@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm đơn 1",
+                "start": 14,
+                "end": 23
+            },
+            {
+                "name": "room",
+                "value": "phòng thờ 8",
+                "start": 26,
+                "end": 37
+            }
+        ],
+        "content": {
+            "text": "giảm thiết bị rèm đơn 1 ở phòng thờ 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn muốn giảm xuống bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "60 %",
+                "start": 9,
+                "end": 13
+            }
+        ],
+        "content": {
+            "text": "giảm còn 60 %"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

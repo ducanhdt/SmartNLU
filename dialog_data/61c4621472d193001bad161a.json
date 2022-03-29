@@ -1,0 +1,44 @@
+[
+    {
+        "content": {
+            "text": "Chào buổi tối bạn hiền"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tớ có thể giúp gì được cho cậu ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "tv 3",
+                "start": 43,
+                "end": 47
+            },
+            {
+                "name": "room",
+                "value": "phòng ăn tối 6",
+                "start": 58,
+                "end": 72
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra trạng thái của thiết bị device là tv 3 , room là phòng ăn tối 6 nhé bạn eei"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

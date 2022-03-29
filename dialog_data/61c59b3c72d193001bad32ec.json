@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "Xin chào!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ngày hôm nay của bạn thế nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi giúp gì được bạn chứ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "cột đèn 1",
+                "start": 53,
+                "end": 62
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 73,
+                "end": 74
+            }
+        ],
+        "content": {
+            "text": "Hello, ngày của tôi thật thảm họa. Bạn giúp tôi giảm cột đèn 1 xuống mức 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tiết kiệm điện là tốt đấy!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhưng mà tôi phải đến phòng nào để tắt đây?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "Phòng 2",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 5",
+                "start": 8,
+                "end": 14
+            }
+        ],
+        "content": {
+            "text": "Phòng 2 tầng 5 nhé."
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

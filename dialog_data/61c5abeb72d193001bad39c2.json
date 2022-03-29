@@ -1,0 +1,94 @@
+[
+    {
+        "content": {
+            "text": "chào anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cần gì ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn hoa 3",
+                "start": 37,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "Chào bạn, bạn làm ơn tăng mức độ của đèn hoa 3 được không, mình cảm thấy hơi tối"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok anh, tăng lên bao nhiêu thì vừa nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 27,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng giúp mình lên mức 1 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đèn phòng nào vậy anh?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp",
+                "start": 29,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "Bạn tăng giúp mình cái trong phòng bếp nhé, mình cảm ơn"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

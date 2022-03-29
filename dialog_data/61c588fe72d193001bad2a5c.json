@@ -1,0 +1,108 @@
+[
+    {
+        "content": {
+            "text": "chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": " đèn trần 2",
+                "start": 14,
+                "end": 25
+            }
+        ],
+        "content": {
+            "text": "mình muốn tăng đèn trần 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "đèn phòng nào tầng nào ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn tăng lên mức bao nhiêu"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "52 phần trăm",
+                "start": 20,
+                "end": 32
+            },
+            {
+                "name": "room",
+                "value": "room 6",
+                "start": 41,
+                "end": 47
+            }
+        ],
+        "content": {
+            "text": "mình muốn bật ở mức 52 phần trăm ở phòng room 6"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "room 5 tầng nào bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "3",
+                "start": 9,
+                "end": 10
+            }
+        ],
+        "content": {
+            "text": "tại tầng 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

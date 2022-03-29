@@ -1,0 +1,34 @@
+[
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "bóng hoa 3",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng con 8",
+                "start": 17,
+                "end": 28
+            }
+        ],
+        "content": {
+            "text": "tắt bóng hoa 3 ở phòng con 8"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

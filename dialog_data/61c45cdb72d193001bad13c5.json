@@ -1,0 +1,54 @@
+[
+    {
+        "content": {
+            "text": "trợ lý ảo đâyyyy"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn bàn 2",
+                "start": 18,
+                "end": 27
+            },
+            {
+                "name": "room",
+                "value": "room",
+                "start": 45,
+                "end": 49
+            },
+            {
+                "name": "floorNumber",
+                "value": "floorNumber",
+                "start": 54,
+                "end": 65
+            },
+            {
+                "name": "command",
+                "value": "command",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "syscolor",
+                "value": "màu trắng",
+                "start": 33,
+                "end": 42
+            }
+        ],
+        "content": {
+            "text": "command thiết bị: đèn bàn 2 sang màu trắng ở room and floorNumber"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

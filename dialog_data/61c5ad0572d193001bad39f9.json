@@ -1,0 +1,100 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, hân hạnh được phục vụ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn cần mình giúp gì không ạ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật hộ mình thiết bị được không ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Dạ vâng ạ, bạn cho mình biết thiết bị nào được không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "điều hòa 3",
+                "start": 0,
+                "end": 10
+            },
+            {
+                "name": "sysnumber",
+                "value": "2",
+                "start": 19,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "điều hòa 3 lên mốc 2 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Dạ vâng ạ, bạn cho mình biết cụ thể điều hòa ở phòng nào được không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng đọc 8",
+                "start": 6,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "trong phòng đọc 8 ấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

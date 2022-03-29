@@ -1,0 +1,66 @@
+[
+    {
+        "content": {
+            "text": "em chào anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cần gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "loa 3",
+                "start": 34,
+                "end": 39
+            }
+        ],
+        "content": {
+            "text": "Kiểm tra giúp mình trạng thái của loa 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok a ơi phòng nào vậy anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng bếp 1",
+                "start": 12,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "mình đang ở phòng bếp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

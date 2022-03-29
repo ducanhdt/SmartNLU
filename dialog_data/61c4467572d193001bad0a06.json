@@ -1,0 +1,62 @@
+[
+    {
+        "content": {
+            "text": "Chào béo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "mình có thể giúp gì cho béo hôm nay"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "syscolor",
+                "value": "tía",
+                "start": 54,
+                "end": 57
+            },
+            {
+                "name": "room",
+                "value": "phòng 3",
+                "start": 63,
+                "end": 70
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 7",
+                "start": 71,
+                "end": 77
+            },
+            {
+                "name": "device",
+                "value": "bình nước nóng 2",
+                "start": 28,
+                "end": 44
+            },
+            {
+                "name": "command",
+                "value": "đổi",
+                "start": 16,
+                "end": 19
+            }
+        ],
+        "content": {
+            "text": "trợ lý fuck boi đổi cho anh bình nước nóng 2 sang màu tía trên phòng 3 tầng 7"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

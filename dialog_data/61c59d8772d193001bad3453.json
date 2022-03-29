@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "helo"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi có thể làm gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "cửa cuốn 2",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "nhà bếp 5",
+                "start": 15,
+                "end": 24
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 29,
+                "end": 30
+            }
+        ],
+        "content": {
+            "text": "bật cửa cuốn 2 nhà bếp 5 cấp 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

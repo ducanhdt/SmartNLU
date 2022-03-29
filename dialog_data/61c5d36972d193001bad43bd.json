@@ -1,0 +1,63 @@
+[
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "mình là chaien, hãy giúp mình đánh bại nobita nào"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "oke bạn muốn dùng bảo bối gì và dùng ở mức nào ở đâu "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "thằng nobita đang ở room 3"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu 2 ",
+                "start": 26,
+                "end": 36
+            },
+            {
+                "name": "room",
+                "value": "phòng họp 1",
+                "start": 38,
+                "end": 49
+            },
+            {
+                "name": "command",
+                "value": " tắt",
+                "start": 13,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "mình muốn bạn tắt bảo bối đèn màu 2 ở phòng họp 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

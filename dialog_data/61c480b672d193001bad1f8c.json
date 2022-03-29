@@ -1,0 +1,69 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Ngày mới vui vẻ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [],
+        "content": {
+            "text": "chào bạn , ngày mới vui vẻ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "name": "device",
+                "value": "đèn 1",
+                "start": 13,
+                "end": 18
+            },
+            {
+                "name": "room",
+                "value": "room",
+                "start": 21,
+                "end": 25
+            },
+            {
+                "name": "syspercentage",
+                "value": "73 phần trăm",
+                "start": 37,
+                "end": 49
+            }
+        ],
+        "content": {
+            "text": "bật cho mình đèn 1 ở room với mức độ 73 phần trăm nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "content": {
+            "text": "Rất vui phòng được phục vụ bạn!"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tôi là trợ lý ảo "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm đơn 3",
+                "start": 21,
+                "end": 30
+            },
+            {
+                "name": "syscolor",
+                "value": "màu xanh nước biển",
+                "start": 36,
+                "end": 54
+            },
+            {
+                "name": "command",
+                "value": "thay đổi",
+                "start": 8,
+                "end": 16
+            }
+        ],
+        "content": {
+            "text": "Tôi cần thay đổi màu rèm đơn 3 sang màu xanh nước biển"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Nhưng chiếc rèm đó ở phòng nào nhỉ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Thay đổi màu sắc của thiết bị",
+            "tag": "smart.home.set.color"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách ",
+                "start": 6,
+                "end": 18
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 2",
+                "start": 18,
+                "end": 24
+            }
+        ],
+        "content": {
+            "text": "Rèm ở phòng khách tầng 2 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "content": {
+            "text": "hiii"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "tôi là trợ lý ảo SMART HOME"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở cấp độ nhất định",
+            "tag": "smart.home.set.level"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "bật ",
+                "start": 12,
+                "end": 16
+            },
+            {
+                "name": "device",
+                "value": "rèm ngang 2",
+                "start": 24,
+                "end": 35
+            },
+            {
+                "name": "room",
+                "value": "phòng giám đốc 4",
+                "start": 38,
+                "end": 54
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 61,
+                "end": 62
+            }
+        ],
+        "content": {
+            "text": "trợ lý béo, bật cho tao rèm ngang 2 ở phòng giám đốc 4 ở mức 3"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

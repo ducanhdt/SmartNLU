@@ -1,0 +1,91 @@
+[
+    {
+        "content": {
+            "text": "xin chào"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Chào hỏi",
+            "tag": "greeting"
+        },
+        "slots": [],
+        "content": {
+            "text": "tôi cần giúp, nóng quá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "vâng bạn muốn trợ lý giúp gì vậy ?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "điều hòa 2",
+                "start": 4,
+                "end": 14
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 26,
+                "end": 27
+            }
+        ],
+        "content": {
+            "text": "cái điều hòa 2 đấy, xuống 4"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "điều hòa 2 tại vị trí nào vậy "
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng khách",
+                "start": 0,
+                "end": 11
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 12,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "phòng khách tầng 3 đấy"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "xin chao, mình có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "command",
+                "value": "tắt",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "name": "device",
+                "value": "đèn kiểng 1",
+                "start": 18,
+                "end": 29
+            }
+        ],
+        "content": {
+            "text": "bạn tắt giúp mình đèn kiểng 1 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "cho mình hỏi mình cần tắt đèn này ở phòng nào đó bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật/tắt thiết bị",
+            "tag": "smart.home.device.onoff"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng con nhỏ 1",
+                "start": 2,
+                "end": 17
+            }
+        ],
+        "content": {
+            "text": "ở phòng con nhỏ 1 bạn nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

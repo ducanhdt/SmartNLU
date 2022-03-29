@@ -1,0 +1,62 @@
+[
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "màn cuốn 3",
+                "start": 14,
+                "end": 24
+            },
+            {
+                "name": "command",
+                "value": "bật",
+                "start": 0,
+                "end": 3
+            }
+        ],
+        "content": {
+            "text": "bật giúp mình màn cuốn 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Tiếp"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Bật thiết bị ở mức phần trăm nhất định",
+            "tag": "smart.home.set.percentage"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 6",
+                "start": 0,
+                "end": 7
+            },
+            {
+                "name": "syspercentage",
+                "value": "57 %",
+                "start": 14,
+                "end": 18
+            }
+        ],
+        "content": {
+            "text": "phòng 6 ở mức 57 % nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

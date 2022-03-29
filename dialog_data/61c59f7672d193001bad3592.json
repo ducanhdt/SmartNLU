@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Mình có thể giúp gì được cho bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn lồng 2",
+                "start": 31,
+                "end": 41
+            }
+        ],
+        "content": {
+            "text": "trợ lý ơi, làm ơn tăng độ sáng đèn lồng 2 lên giúp tôi"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn có thể cho mình biết bạn muốn tăng thế nào được không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng ngủ",
+                "start": 29,
+                "end": 38
+            },
+            {
+                "name": "sysnumber",
+                "value": "1",
+                "start": 20,
+                "end": 21
+            }
+        ],
+        "content": {
+            "text": "làm ơn tăng lên mức 1 nhé, ở phòng ngủ của tôi nha"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

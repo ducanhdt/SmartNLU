@@ -1,0 +1,40 @@
+[
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn downlight 3",
+                "start": 5,
+                "end": 20
+            },
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 38,
+                "end": 45
+            },
+            {
+                "name": "floorNumber",
+                "value": "tầng 1",
+                "start": 46,
+                "end": 52
+            },
+            {
+                "name": "syspercentage",
+                "value": "89 phần trăm",
+                "start": 21,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "tăng đèn downlight 3 89 phần trăm tại phòng 9 tầng 1"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "content": {
+            "text": "chào bạn mk có thể giúp gì cho bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn ơi"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "bình nóng lạnh 3",
+                "start": 8,
+                "end": 24
+            },
+            {
+                "name": "syspercentage",
+                "value": " 80 phần trăm",
+                "start": 33,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "ơi bạn, bình nóng lạnh 3 tăng lên 80 phần trăm ná"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ok bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở tầng nào phòng nào bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo phần trăm",
+            "tag": "smart.home.increase.percentage"
+        },
+        "slots": [
+            {
+                "name": "floorNumber",
+                "value": "tầng 3",
+                "start": 9,
+                "end": 15
+            },
+            {
+                "name": "room",
+                "value": "phòng 5",
+                "start": 16,
+                "end": 23
+            }
+        ],
+        "content": {
+            "text": "có lẽ là tầng 3 phòng 5 nhá"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

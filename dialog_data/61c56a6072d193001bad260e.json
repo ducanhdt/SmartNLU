@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "chào anh đẹp trai"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "em có thể giúp gì cho anh"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh cứ nói đi không phải ngại đâu ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "syspercentage",
+                "value": "62 phần trăm",
+                "start": 104,
+                "end": 116
+            },
+            {
+                "name": "device",
+                "value": "bóng học 3",
+                "start": 118,
+                "end": 128
+            },
+            {
+                "name": "room",
+                "value": "hiên sau 3",
+                "start": 23,
+                "end": 33
+            }
+        ],
+        "content": {
+            "text": "Ây, Tâm đang học bài ở hiên sau 3, nhưng mà đèn hơi sáng, phiền bạn giảm dùm mình xuống 1 chút nhé, tầm 62 phần trăm, bóng học 3 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "content": {
+            "text": "xin chào bạn"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "bạn muốn giúp gì"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "đèn màu 2",
+                "start": 19,
+                "end": 28
+            },
+            {
+                "name": "sysnumber",
+                "value": "3",
+                "start": 37,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "bạn giúp mình tăng đèn màu 2 lên mức 3 với"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "ở phòng nào bạn nhỉ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Tăng mức độ của thiết bị theo cấp độ",
+            "tag": "smart.home.increase.level"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": "phòng 9",
+                "start": 0,
+                "end": 7
+            }
+        ],
+        "content": {
+            "text": "phòng 9 nhé"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

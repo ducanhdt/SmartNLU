@@ -1,0 +1,58 @@
+[
+    {
+        "content": {
+            "text": "Chào bạn, mình có thể giúp gì cho bạn không?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "mành 2",
+                "start": 28,
+                "end": 34
+            }
+        ],
+        "content": {
+            "text": "bạn cho mình biết thông tin mành 2 được không ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    },
+    {
+        "content": {
+            "text": "Bạn đang hỏi thông tin mành 20 ở phòng nào?"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Kiểm tra trạng thái của thiết bị",
+            "tag": "smart.home.check.status"
+        },
+        "slots": [
+            {
+                "name": "room",
+                "value": " quầy lễ tân 9",
+                "start": 6,
+                "end": 20
+            }
+        ],
+        "content": {
+            "text": "mành ở quầy lễ tân 9 đấy ạ"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

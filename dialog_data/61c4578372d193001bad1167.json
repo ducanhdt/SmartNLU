@@ -1,0 +1,50 @@
+[
+    {
+        "content": {
+            "text": "chào anh chị"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "anh chị muốn làm gì ạ"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo phần trăm",
+            "tag": "smart.home.decrease.percentage"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "âm trần 3",
+                "start": 5,
+                "end": 14
+            },
+            {
+                "name": "room",
+                "value": "phòng hội nghị 3",
+                "start": 17,
+                "end": 33
+            },
+            {
+                "name": "syspercentage",
+                "value": "66 phần trăm",
+                "start": 34,
+                "end": 46
+            }
+        ],
+        "content": {
+            "text": "giảm âm trần 3 ở phòng hội nghị 3 66 phần trăm"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]

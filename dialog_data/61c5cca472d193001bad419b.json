@@ -1,0 +1,64 @@
+[
+    {
+        "content": {
+            "text": "hello"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "how can I help you"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "content": {
+            "text": "i can do everything"
+        },
+        "sender": {
+            "role": "AGENT"
+        }
+    },
+    {
+        "intent": {
+            "name": "Giảm thiết bị theo mức độ",
+            "tag": "smart.home.decrease.level"
+        },
+        "slots": [
+            {
+                "name": "device",
+                "value": "rèm cửa đôi 3",
+                "start": 5,
+                "end": 18
+            },
+            {
+                "name": "sysnumber",
+                "value": "4",
+                "start": 22,
+                "end": 23
+            },
+            {
+                "name": "room",
+                "value": "8",
+                "start": 30,
+                "end": 31
+            },
+            {
+                "name": "floorNumber",
+                "value": "2",
+                "start": 37,
+                "end": 38
+            }
+        ],
+        "content": {
+            "text": "giảm rèm cửa đôi 3 số 4 phòng 8 tầng 2"
+        },
+        "sender": {
+            "role": "CLIENT"
+        }
+    }
+]
